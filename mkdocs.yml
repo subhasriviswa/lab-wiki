@@ -1,0 +1,95 @@
+site_name: Lab Wiki
+site_description: Internal wiki for neuroimaging and behavioral datasets, analysis pipelines, and computing resources
+site_author: Lab Team
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Datasets:
+    - Overview: datasets/index.md
+    - Neuroimaging Cohorts:
+      - Neuroventure: datasets/neuroimaging/neuroventure.md
+      - Proventure: datasets/neuroimaging/proventure.md
+      - Coventure10: datasets/neuroimaging/coventure10.md
+      - C-PIP: datasets/neuroimaging/c-pip.md
+    - Behavioral Cohorts:
+      - Coventure: datasets/behavioral/coventure.md
+      - Univenture: datasets/behavioral/univenture.md
+      - CUSP: datasets/behavioral/cusp.md
+      - Nutriventure: datasets/behavioral/nutriventure.md
+      - Opiventure: datasets/behavioral/opiventure.md
+  - Pipelines:
+    - Overview: pipelines/index.md
+    - Preprocessing:
+      - DICOM to BIDS: pipelines/preprocessing/dicom-to-bids.md
+      - CAT12 QC: pipelines/preprocessing/cat12-qc.md
+      - fMRIPrep: pipelines/preprocessing/fmriprep.md
+    - Postprocessing:
+      - Denoising Strategies: pipelines/postprocessing/denoising.md
+      - Connectivity Analysis: pipelines/postprocessing/connectivity.md
+  - Neuroventure Pipeline (Detailed):
+    - Overview: neuroventure-detailed/index.md
+    - Data Overview: neuroventure-detailed/data/overview.md
+    - BIDS Conversion: neuroventure-detailed/data/bids-conversion.md
+    - Data Anomalies: neuroventure-detailed/data/anomalies.md
+    - Preprocessing:
+      - CAT12 QC: neuroventure-detailed/preprocessing/cat12.md
+      - fMRIPrep Setup: neuroventure-detailed/fmriprep/setup.md
+      - fMRIPrep Arguments: neuroventure-detailed/fmriprep/arguments.md
+      - fMRIPrep Outputs: neuroventure-detailed/fmriprep/outputs.md
+    - Denoising:
+      - Overview: neuroventure-detailed/denoising/overview.md
+      - Nilearn Strategies: neuroventure-detailed/denoising/nilearn.md
+      - CONN Toolbox: neuroventure-detailed/denoising/conn.md
+    - Quality Control: neuroventure-detailed/qc/index.md
+  - Computing:
+    - HPC Resources: computing/hpc.md
+    - Environment Setup: computing/environment.md
+    - Troubleshooting: computing/troubleshooting.md
+  - Guides:
+    - New Lab Member Guide: guides/onboarding.md
+    - Useful References: guides/references.md
