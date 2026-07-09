@@ -277,12 +277,12 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 ### `coventure_data_dictionary.csv`
 - **What it is:** CoVenture is a large-scale, decade-long youth mental health cohort study that tracks students from the Greater Montreal area. The data dictionary for the **Coventure cohort's yearly self-report questionnaire** — the mental health, substance use, and psychosocial questionnaires (SDQ, SURPS, DEP-ADO, COPE, etc.).
 - **Variable naming:** `PREFIX_QQ_Y#` — instrument prefix, question number, and study year (`Y1`–`Y5`).
-- **Covers:** DEPAPO, DMQ, CMQ, SOC_NORMS, SURPS (raw items), SDQ, BSI, PSYCHOTIC, AUTO, COPE, SELF_ESTEEM, BULLY, Sleep, EAT, DEM, plus the cognitive tasks CMS, SWM, CFT, PALP.
+- **Includes:** DEPAPO, DMQ, CMQ, SOC_NORMS, SURPS (raw items), SDQ, BSI, PSYCHOTIC, AUTO, COPE, SELF_ESTEEM, BULLY, Sleep, EAT, DEM, plus the cognitive tasks CMS, SWM, CFT, PALP.
 
 ## NeuroVenture study
 ### `data_dictionary.csv`
-- **What it is:** NeuroVenture is a sub-study of the CoVenture cohort that investigates how adolescent substance use impacts brain development using neuroimaging (MRI). The data dictionary for the **NeuroVenture** study — cognitive/behavioural computer tasks (eprime), a clinical diagnostic interview (DAWBA), a childhood trauma questionnaire (CTQ), a substance-use calendar (Timeline Follow-Back), and session/demographic admin data.
+- **What it is:** NeuroVenture is a sub-study of the CoVenture cohort that looks into how adolescent substance use impacts brain development using neuroimaging (MRI). The data dictionary for the **NeuroVenture** study — cognitive/behavioural computer tasks (eprime), a clinical diagnostic interview (DAWBA), a childhood trauma questionnaire (CTQ), a substance-use calendar (Timeline Follow-Back), and session/demographic admin data.
 - **Variable naming:** Plain variable names, **no `_Y#` suffix**. Timepoints are recorded separately in the `timepoints` column, using numeric session labels (`1`, `2`, `3` = testing session 1/2/3), not `Y1`–`Y5`.
-- **Covers:** BART, Stop-Signal Task, n-back task, SURPS (subscale scores only — see [SURPS entry](#surps_--substance-use-risk-profile-scale) above), BEHAVIOURAL_SCORES (CMS, WISC, Stroop, SOPT), DAWBA, CTQ_X, TIME_LINE_FOLLOW_BACK, DEMOGRAPHIC_INFORMATIONS, TESTING_SESSIONS, CODES.
+- **Includes:** BART, Stop-Signal Task, n-back task, SURPS (subscale scores only — see [SURPS entry](#surps_--substance-use-risk-profile-scale) above), BEHAVIOURAL_SCORES (CMS, WISC, Stroop, SOPT), DAWBA, CTQ_X, TIME_LINE_FOLLOW_BACK, DEMOGRAPHIC_INFORMATIONS, TESTING_SESSIONS, CODES.
 
 ---
