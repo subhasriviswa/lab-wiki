@@ -1,6 +1,6 @@
 # Behavioural Questionnaire Data Summary
 
-This page acts as a legend for [CoVenture](#coventure-study) and [NeuroVenture](#neuroventure-study) data (see descriptions of each study below). It tells you how and where to find the data you're searching for, including what each instrument is, how its variables are named, and where to find it in the data files.
+This page acts as a legend for [CoVenture](#coventure-study) and [NeuroVenture](#neuroventure-study) data (see descriptions of each study below). It tells you how and where to find the data you're searching for, including what each instrument is, how its variables are named, where to find it in the data files.
 
 ---
 
