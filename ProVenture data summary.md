@@ -1,6 +1,6 @@
 # Proventure Data Dictionary — Clinical, Cognitive & Substance Use Battery
 
-This page acts as a legend for Proventure. Its data dictionary (`Proventure_Data_Dictionnary_2026-04-09.xlsx`) is a raw **Psytools export** (one sheet per questionnaire block, there are both English/French sheets),**
+This page acts as a legend for Proventure. Its data dictionary (`Proventure_Data_Dictionnary_2026-04-09.xlsx`) is structured with one sheet per questionnaire block, there are both English and French sheets**. This legend also incorporates information from the `PROVENTURE - COMPLETE TEST BATTERY` document.
 
 ---
 
@@ -27,7 +27,7 @@ PREFIX_QQ
 
 **Clinical assessments:** [CAARMS](#caarms--comprehensive-assessment-of-at-risk-mental-states) · [DIGS](#digs--diagnostic-interview-for-genetic-studies) · [SOFAS](#sofas--social-and-occupational-functioning-scale) · [DAWBA](#dawba--development-and-well-being-assessment-proventure)
 
-**Mental health & psychopathology:** [CAPE-42](#cape-42--community-assessment-of-psychic-experience) · [PSYCHOTIC / APSS-PLE](#psychotic--apss-ple--thoughts-and-feelings-questionnaire) · [PHQA](#phqa--patient-health-questionnaire-adolescents)
+**Mental health & psychopathology:** [CAPE-42 (CAPEin proventure excel)](#cape--community-assessment-of-psychic-experience) · [PSYCHOTIC / APSS-PLE](#psychotic--apss-ple--thoughts-and-feelings-questionnaire) · [PHQA (HQA in proventure excel)](#phqa--patient-health-questionnaire-adolescents)
 
 **Psychosocial:** [PSQI](#psqi--pittsburgh-sleep-quality-index)
 
@@ -45,7 +45,7 @@ PREFIX_QQ
 
 ### `UIC_` — Unique Identifier Code
 - **Description:** set of questions (mother's first initial, father's first initial, date of birth, last letter of first name, number of older siblings) used to generate an anonymous linking code across surveys/sessions. 
-- **Source:** Proventure_Data Dictionary_2026-04-09 (PROVENTURE_Q1_EN)
+- **Source:** Proventure_Data Dictionary_2026-04-09 (PROVENTURE_Q1_EN). NOTE: there is a UIC section at the beginning of the sheet as well as another UICR section at the end to confirm the information given and link the questionnaires anonymously.
 - **Also found in:** Coventure/NeuroVenture data dictionary— `UIC_1`–`UIC_5` 
 
 ---
@@ -73,7 +73,7 @@ PREFIX_QQ
 - **Reference:** Gillespie, S. M., Rotshtein, P., Wells, L. J., Beech, A. R., & Mitchell, I. J. (2015). Psychopathic traits are associated with reduced attention to the eyes of emotional faces among adult male non-offenders., Oct 7;9:552.
 
 ### `Dual Task` (discontinued)
-- **Description:** Working memory span task — participants memorize and recall a series of letters, with concurrent simple arithmetic to increase task complexity. Discontinued after COVID.
+- **Description:** Working memory span task — participants memorize and recall a series of letters, with concurrent simple arithmetic to increase task complexity. NOTE: Discontinued after COVID.
 - **Source:** PROVENTURE - COMPLETE TEST BATTERY
 - **Reference:** Oswald, F. L., McAbee, S. T., Redick, T. S., & Hambrick, D. Z. (2015). The development of a short domain-general measure of working memory capacity. *Behavior Research Methods*, 47(4), 1343–1355. *(battery document notes an equivalent task may be substituted)*
 
@@ -82,7 +82,7 @@ PREFIX_QQ
 - **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_WCST_EN`)
 
 ### `PALP` — Stop or Go Task
-- **Description:** Adapted Go/No-Go Passive Avoidance Learning Paradigm. Participants learn by trial and error to respond ("go") to "good" numbers and withhold responding ("no-go") to "bad" numbers, across Reward-only, Punish-only, and Reward-Punish conditions. Response inhibition is indexed by errors on no-go trials.
+- **Description:** Adapted Go/No-Go Passive Avoidance Learning Paradigm. Participants learn by trial and error to respond ("go") to "good" numbers and withhold responding ("no-go") to "bad" numbers, across Reward-only, Punish-only, and Reward-Punish conditions. Response inhibition indexed by errors on no-go trials.
 - **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_PALP_EN`)
 - **Also part of:** Coventure/NeuroVenture (`PALP` — [Cognitive tasks](#cognitive-tasks)).
 - **Reference:** Noorbakhsh, S., Boers, E., Afzali, M., & Conrod, P. (2020). Cognitive Function Impairments Linked to Alcohol and Cannabis Use During Adolescence: A Study of Gender Differences. *Frontiers in Human Neuroscience*, 14, 10.3389/fnhum.2020.00095. *(also citing Newman et al., 1985; Castellanos-Ryan et al., 2011; Whelan et al., 2012)*
@@ -107,7 +107,7 @@ PREFIX_QQ
 - **Reference:** Goldman, H., Skodol, A., & Lave, T. (1992). Revising Axis V for DSM-IV: A Review of Measures of Social Functioning.
 
 ### `DAWBA` — Development and Well-Being Assessment (Proventure)
-- **Description:** Structured diagnostic interview covering a broad range of child/adolescent psychiatric conditions, including the SDQ, specific/social phobia, panic/agoraphobia, PTSD, OCD, generalized anxiety, depression, bipolar mood, ADHD, eating disorders, tics, and psychosis.
+- **Description:** Structured diagnostic interview covering a range of child/adolescent psychiatric conditions, including the SDQ, specific/social phobia, panic/agoraphobia, PTSD, OCD, generalized anxiety, depression, bipolar mood, ADHD, eating disorders, tics, and psychosis.
 - **Source:** PROVENTURE - COMPLETE TEST BATTERY
 - **Also part of:** Coventure/NeuroVenture (`DAWBA` — see [Clinical assessments](#clinical-assessments) in the main summary). Same instrument; variable-level structure documented there.
 - **Reference:** Goodman, R., Ford, T., Richards, H., Gatward, R., & Meltzer, H. (2000). The Development and Well-Being Assessment: description and initial validation of an integrated assessment of child and adolescent psychopathology. *Journal of Child Psychology and Psychiatry, and Allied Disciplines*, 41(5). [pubmed.ncbi.nlm.nih.gov/10946756](https://pubmed.ncbi.nlm.nih.gov/10946756/)
@@ -116,7 +116,7 @@ PREFIX_QQ
 
 ## Mental health & psychopathology
 
-### `CAPE-42` — Community Assessment of Psychic Experience
+### `CAPE-42 (CAPE in excel)` — Community Assessment of Psychic Experience
 - **Description:** Self-report measure of positive, negative, and depressive psychotic-like experiences in the general population, and how distressing each is. Each experience item is paired with a follow-up "how distressed are you by this" rating.
 - **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_Q2_EN` sheet)
 - **Example variable:** `CAPE_33` = "Do you ever hear voices when you are alone?"; `CAPE_33_feel` = associated distress rating
@@ -131,7 +131,7 @@ PREFIX_QQ
 
 ### `PHQA` — Patient Health Questionnaire, Adolescents
 - **Description:** Diagnostic screening covering depression, anxiety/panic attacks, generalized anxiety, and eating disorder symptoms, in adolescent-appropriate language.
-- **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_Q2_EN` sheet, variable prefix `HQA_`)
+- **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_Q2_EN` sheet, variable prefix **`HQA_`**)
 - **Example variable:** `HQA_13` = "In the last 2 weeks, have you often had thoughts that..."
 - **Reference:** Patient Health Questionnaire for Adolescents — [hhs.texas.gov PHQ-A instructions PDF](https://www.hhs.texas.gov/sites/default/files/documents/doing-business-with-hhs/provider-portal/health-services-providers/thsteps/ths-patient-health-questionnaire-instr.pdf)
 
@@ -194,7 +194,7 @@ Unlike the flat `instrument`/`variable_name` table format of the other two dicti
 | Sheet | Contents |
 |---|---|
 | `PROVENTURE_Q1_EN` / `_FR` | Questionnaire block 1 (UIC, DEM, DEPADO, SMOKE, CEQ, MMM), English/French |
-| `PROVENTURE_Q2_EN` / `_FR` | Questionnaire block 2 (SURPS, HQA/PHQA, PSYCHOTIC, CAPE-42), English/French |
+| `PROVENTURE_Q2_EN` / `_FR` | Questionnaire block 2 (SURPS, HQA/PHQA, PSYCHOTIC, CAPE), English/French |
 | `PROVENTURE_WCST_EN` / `_FR` | Wisconsin Card Sorting Task — instructions and stimulus card deck |
 | `PROVENTURE_PALP_EN` / `_FR` | Stop-or-Go (PALP) task — instructions and condition scripts |
 
