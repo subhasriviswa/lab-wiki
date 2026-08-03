@@ -52,7 +52,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "DEM_"`
 - **Example variable:** DEM_01
-- **Also found in:** Proventure (`DEM_` — see the [Proventure data dictionary](proventure_data_dictionary.md#dem--demographics-proventure))
+- **Also found in:** Proventure (`DEM_` — see the [Proventure data dictionary](ProVenture%20data%20summary.md#dem--demographics-proventure))
 
 ### `DEMOGRAPHIC_INFORMATIONS` — participant demographics & history
 - **Description:** One-time or slowly-changing participant background information: project status, school, gender, date of birth, handedness, language history, brain injury/diagnosis history (self and relatives), medication use, height and weight.
@@ -99,7 +99,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "PALP"`
 - **Example variable:** PALP_RP_Com
-- **Also found in:** Proventure ([`PALP`](proventure_data_dictionary.md#palp--stop-or-go-task) — "Stop or Go Task")
+- **Also found in:** Proventure ([`PALP`](ProVenture%20data%20summary.md#palp--stop-or-go-task) — "Stop or Go Task")
 
 ### `BART (Balloon Analogue Risk Task)` — risk-taking task
 - **Description:** Computerized behavioural risk-taking task. Participants pump up virtual balloons to earn points; each pump raises payout but also the risk the balloon explodes and points are lost. Produces summary scores across 30 balloon trials.
@@ -136,7 +136,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Dictionary:** `data_dictionary.csv`, `instrument == "DAWBA"`
 - **Naming note:** `p1` prefix = Parent 1 respondent; `s` prefix = Youth/self respondent; `band` suffix = diagnostic classification; `z2` = second/repeat administration
 - **Example variable:** `depband` = computer-predicted Depression diagnostic band (DSM-IV & ICD-10)
-- **Also found in:** Proventure ([`DAWBA`](proventure_data_dictionary.md#dawba--development-and-well-being-assessment-proventure))
+- **Also found in:** Proventure ([`DAWBA`](ProVenture%20data%20summary.md#dawba--development-and-well-being-assessment-proventure))
 
 ### `CTQ_X` — Childhood Trauma Questionnaire
 - **Description:** Retrospective self-report measure of childhood abuse and neglect (28 items covering emotional abuse, physical abuse, sexual abuse, emotional neglect, and physical neglect, plus reverse-scored protective/positive items e.g. "I felt loved").
@@ -165,7 +165,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "PSYCHOTIC_"`
 - **Example variable:** PSYCHOTIC_01
-- **Also found in:** Proventure ([`PSYCHOTIC` / `APSS-PLE`](proventure_data_dictionary.md#psychotic--apss-ple--thoughts-and-feelings-questionnaire) — "Thoughts and Feelings questionnaire").
+- **Also found in:** Proventure ([`PSYCHOTIC` / `APSS-PLE`](ProVenture%20data%20summary.md#psychotic--apss-ple--thoughts-and-feelings-questionnaire) — "Thoughts and Feelings questionnaire").
 
 ### `AUTO_` — Automatic Thoughts Questionnaire
 - **Description:** Frequency of negative automatic thoughts ("thoughts that pop into your head"). Subscales: Personal failure, Hostility, plus a total score. Questions 1-20.
@@ -206,7 +206,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "EAT_"`
 - **Example variable:** EAT_01
-- **Also found in:** Not exactly the same but related to Proventure's [`HQA_EW_`](proventure_data_dictionary.md#hqa_ew--eating-disorder-screening-phqa-subscale) eating disorder screen covers a similar domain (weight/shape concerns, compensatory behaviors) but is a different instrument questionnaire
+- **Also found in:** Not exactly the same but related to Proventure's [`HQA_EW_`](ProVenture%20data%20summary.md#hqa_ew--eating-disorder-screening-phqa-subscale) eating disorder screen covers a similar domain (weight/shape concerns, compensatory behaviors) but is a different instrument questionnaire
 
 ---
 
@@ -217,7 +217,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "DEPAPO_"`
 - **Example variable:** `DEPAPO_ALC` = alcohol use item
-- **Also found in:** Proventure ([`DEPADO_`](proventure_data_dictionary.md#dep-ado--dep-ado-substance-use-screening-proventure)) Note: typo in this dictionary, should be DEPADO
+- **Also found in:** Proventure ([`DEPADO_`](ProVenture%20data%20summary.md#dep-ado--dep-ado-substance-use-screening-proventure)) Note: typo in this dictionary, should be DEPADO
 
 ### `DMQ_` — Drinking Motives Questionnaire
 - **Description:** Why participants drink alcohol, across 5 motive subscales: Social, Coping with anxiety, Coping with depression, Enhancement, Conformity. Questions 1-28.
@@ -243,7 +243,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "SURPS_"` (raw items) · `data_dictionary.csv`, `instrument == "SURPS"` (subscale scores)
 - **Example variable:** `SURPS_01_Y1` = raw item 1, Year 1; `SURPS_SS_Raw` = raw Sensation Seeking subscale score; `ZSURPS_NT_School_Y#` = NT subscale, z-scored vs. school mean; `ZSURPS_NT_Total_Y#` = z-scored vs. full sample
-- **Also found in:** Proventure ([`SURPS`](proventure_data_dictionary.md#surps--substance-use-risk-profile-scale-proventure)
+- **Also found in:** Proventure ([`SURPS`](ProVenture%20data%20summary.md#surps--substance-use-risk-profile-scale-proventure)
 
 ### `TIME_LINE_FOLLOW_BACK` — Timeline Follow-Back substance use
 - **Description:** Calendar-based recall method for quantifying substance use over the past 6 months. Captures, per month: number of days used, quantity used, and money spent — separately for alcohol, binge drinking, tobacco, cannabis, and up to two additional "other" drugs.
@@ -251,7 +251,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Dictionary:** `data_dictionary.csv`, `instrument == "TIME_LINE_FOLLOW_BACK"`
 - **Naming note:** `EtOH` = alcohol (ethanol), `$` in variable name = money spent; `Days` = number of days used; `MonthN` = calendar month N of the 6-month recall window
 - **Example variable:** `BingeDaysMonth3` = number of binge-drinking days for month 3
-- **Also found in:** Proventure ([`TLFB`](proventure_data_dictionary.md#tlfb--timeline-followback))
+- **Also found in:** Proventure ([`TLFB`](ProVenture%20data%20summary.md#tlfb--timeline-followback))
 
 ---
 
