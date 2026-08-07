@@ -30,17 +30,17 @@ PREFIX_QQ_Y#
 
 Click an instrument to jump to its section. Instruments are grouped by domain.
 
-**Demographics & sessions:** [DEM](#dem_--demographics) · [Demographic Information](#demographic_informations--participant-demographics--history) · [Testing Sessions](#testing_sessions--session-level-metadata) · [Codes](#codes--administrative-id-codes)
+**Demographics & sessions:** [DEM](#dem_-demographics) · [Demographic Information](#demographic_informations-participant-demographics-history) · [Testing Sessions](#testing_sessions-session-level-metadata) · [Codes](#codes-administrative-id-codes)
 
-**Cognitive tasks:** [CMS](#cms--memory-task) · [SWM](#swm--spatial-working-memory) · [CFT](#cft--culture-fair-non-verbal-iq-test) · [PALP](#palp--probabilistic-associative-learning-paradigm) · [BART](#bart-balloon-analogue-risk-task--risk-taking-task) · [Stop-Signal Task](#stop-signal-task--response-inhibition-task) · [n-back task](#n-back-task--working-memory-task) · [Behavioural Scores](#behavioural_scores--memory-iq-and-executive-function-battery)
+**Cognitive tasks:** [CMS](#cms-memory-task) · [SWM](#swm-spatial-working-memory) · [CFT](#cft-culture-fair-non-verbal-iq-test) · [PALP](#palp-probabilistic-associative-learning-paradigm) · [BART](#bart-balloon-analogue-risk-task-risk-taking-task) · [Stop-Signal Task](#stop-signal-task-response-inhibition-task) · [n-back task](#n-back-task-working-memory-task) · [Behavioural Scores](#behavioural_scores-memory-iq-and-executive-function-battery)
 
-**Clinical assessments:** [DAWBA](#dawba--development-and-well-being-assessment) · [CTQ_X](#ctq_x--childhood-trauma-questionnaire)
+**Clinical assessments:** [DAWBA](#dawba-development-and-well-being-assessment) · [CTQ_X](#ctq_x-childhood-trauma-questionnaire)
 
-**Mental health & psychopathology:** [SDQ](#sdq_--strengths-and-difficulties-questionnaire) · [BSI](#bsi_--brief-symptom-inventory-subset) · [Psychotic-like experiences](#psychotic_--psychotic-like-experiences-screen) · [Automatic Thoughts](#auto_--automatic-thoughts-questionnaire) · [COPE](#cope_--brief-cope-inventory)
+**Mental health & psychopathology:** [SDQ](#sdq_-strengths-and-difficulties-questionnaire) · [BSI](#bsi_-brief-symptom-inventory-subset) · [Psychotic-like experiences](#psychotic_-psychotic-like-experiences-screen) · [Automatic Thoughts](#auto_-automatic-thoughts-questionnaire) · [COPE](#cope_-brief-cope-inventory)
 
-**Psychosocial:** [Self-Esteem](#self_esteem_--rosenberg-self-esteem-scale) · [Bullying](#bully_--bullying-involvement-questionnaire) · [Sleep](#sleep_--sleep-habits-questionnaire) · [Eating habits](#eat_--eating-habits-questionnaire)
+**Psychosocial:** [Self-Esteem](#self_esteem_-rosenberg-self-esteem-scale) · [Bullying](#bully_-bullying-involvement-questionnaire) · [Sleep](#sleep_-sleep-habits-questionnaire) · [Eating habits](#eat_-eating-habits-questionnaire)
 
-**Substance use:** [DEP-ADO](#depapo_--dep-ado-substance-use-screening) · [DMQ](#dmq_--drinking-motives-questionnaire) · [CMQ](#cmq_--cannabis-motives-questionnaire) · [Social Norms](#soc_norms_--perceived-social-norms) · [SURPS](#surps_--substance-use-risk-profile-scale) · [Timeline Follow-Back](#time_line_follow_back--timeline-follow-back-substance-use)
+**Substance use:** [DEP-ADO](#depapo_-dep-ado-substance-use-screening) · [DMQ](#dmq_-drinking-motives-questionnaire) · [CMQ](#cmq_-cannabis-motives-questionnaire) · [Social Norms](#soc_norms_-perceived-social-norms) · [SURPS](#surps_-substance-use-risk-profile-scale) · [Timeline Follow-Back](#time_line_follow_back-timeline-follow-back-substance-use)
 
 ---
 # **Instruments/Questionnaires**
@@ -52,7 +52,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "DEM_"`
 - **Example variable:** DEM_01
-- **Also found in:** Proventure (`DEM_` — see the [Proventure data dictionary](ProVenture%20data%20summary.md#dem--demographics-proventure))
+- **Also found in:** Proventure (`DEM_` — see the [Proventure data dictionary](proventure.md#dem_-demographics-proventure))
 
 ### `DEMOGRAPHIC_INFORMATIONS` — participant demographics & history
 - **Description:** One-time or slowly-changing participant background information: project status, school, gender, date of birth, handedness, language history, brain injury/diagnosis history (self and relatives), medication use, height and weight.
@@ -99,7 +99,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "PALP"`
 - **Example variable:** PALP_RP_Com
-- **Also found in:** Proventure ([`PALP`](ProVenture%20data%20summary.md#palp--stop-or-go-task) — "Stop or Go Task")
+- **Also found in:** Proventure ([`PALP`](proventure.md#palp-stop-or-go-task) — "Stop or Go Task")
 
 ### `BART (Balloon Analogue Risk Task)` — risk-taking task
 - **Description:** Computerized behavioural risk-taking task. Participants pump up virtual balloons to earn points; each pump raises payout but also the risk the balloon explodes and points are lost. Produces summary scores across 30 balloon trials.
@@ -136,7 +136,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Dictionary:** `data_dictionary.csv`, `instrument == "DAWBA"`
 - **Naming note:** `p1` prefix = Parent 1 respondent; `s` prefix = Youth/self respondent; `band` suffix = diagnostic classification; `z2` = second/repeat administration
 - **Example variable:** `depband` = computer-predicted Depression diagnostic band (DSM-IV & ICD-10)
-- **Also found in:** Proventure ([`DAWBA`](ProVenture%20data%20summary.md#dawba--development-and-well-being-assessment-proventure))
+- **Also found in:** Proventure ([`DAWBA`](proventure.md#dawba-development-and-well-being-assessment-proventure))
 
 ### `CTQ_X` — Childhood Trauma Questionnaire
 - **Description:** Retrospective self-report measure of childhood abuse and neglect (28 items covering emotional abuse, physical abuse, sexual abuse, emotional neglect, and physical neglect, plus reverse-scored protective/positive items e.g. "I felt loved").
@@ -165,7 +165,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "PSYCHOTIC_"`
 - **Example variable:** PSYCHOTIC_01
-- **Also found in:** Proventure ([`PSYCHOTIC` / `APSS-PLE`](ProVenture%20data%20summary.md#psychotic--apss-ple--thoughts-and-feelings-questionnaire) — "Thoughts and Feelings questionnaire").
+- **Also found in:** Proventure ([`PSYCHOTIC` / `APSS-PLE`](proventure.md#psychotic-apss-ple-thoughts-and-feelings-questionnaire) — "Thoughts and Feelings questionnaire").
 
 ### `AUTO_` — Automatic Thoughts Questionnaire
 - **Description:** Frequency of negative automatic thoughts ("thoughts that pop into your head"). Subscales: Personal failure, Hostility, plus a total score. Questions 1-20.
@@ -206,7 +206,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "EAT_"`
 - **Example variable:** EAT_01
-- **Also found in:** Not exactly the same but related to Proventure's [`HQA_EW_`](ProVenture%20data%20summary.md#hqa_ew--eating-disorder-screening-phqa-subscale) eating disorder screen covers a similar domain (weight/shape concerns, compensatory behaviors) but is a different instrument questionnaire
+- **Also found in:** Not exactly the same but related to Proventure's [`PHQA` / `HQA_`](proventure.md#phqa-patient-health-questionnaire-adolescents) eating disorder screen covers a similar domain (weight/shape concerns, compensatory behaviors) but is a different instrument questionnaire
 
 ---
 
@@ -217,7 +217,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "DEPAPO_"`
 - **Example variable:** `DEPAPO_ALC` = alcohol use item
-- **Also found in:** Proventure ([`DEPADO_`](ProVenture%20data%20summary.md#dep-ado--dep-ado-substance-use-screening-proventure)) Note: typo in this dictionary, should be DEPADO
+- **Also found in:** Proventure ([`DEPADO_`](proventure.md#dep-ado-dep-ado-substance-use-screening-proventure)) Note: typo in this dictionary, should be DEPADO
 
 ### `DMQ_` — Drinking Motives Questionnaire
 - **Description:** Why participants drink alcohol, across 5 motive subscales: Social, Coping with anxiety, Coping with depression, Enhancement, Conformity. Questions 1-28.
@@ -243,7 +243,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "SURPS_"` (raw items) · `data_dictionary.csv`, `instrument == "SURPS"` (subscale scores)
 - **Example variable:** `SURPS_01_Y1` = raw item 1, Year 1; `SURPS_SS_Raw` = raw Sensation Seeking subscale score; `ZSURPS_NT_School_Y#` = NT subscale, z-scored vs. school mean; `ZSURPS_NT_Total_Y#` = z-scored vs. full sample
-- **Also found in:** Proventure ([`SURPS`](ProVenture%20data%20summary.md#surps--substance-use-risk-profile-scale-proventure)
+- **Also found in:** Proventure ([`SURPS`](proventure.md#surps-substance-use-risk-profile-scale-proventure))
 
 ### `TIME_LINE_FOLLOW_BACK` — Timeline Follow-Back substance use
 - **Description:** Calendar-based recall method for quantifying substance use over the past 6 months. Captures, per month: number of days used, quantity used, and money spent — separately for alcohol, binge drinking, tobacco, cannabis, and up to two additional "other" drugs.
@@ -251,7 +251,7 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 - **Dictionary:** `data_dictionary.csv`, `instrument == "TIME_LINE_FOLLOW_BACK"`
 - **Naming note:** `EtOH` = alcohol (ethanol), `$` in variable name = money spent; `Days` = number of days used; `MonthN` = calendar month N of the 6-month recall window
 - **Example variable:** `BingeDaysMonth3` = number of binge-drinking days for month 3
-- **Also found in:** Proventure ([`TLFB`](ProVenture%20data%20summary.md#tlfb--timeline-followback))
+- **Also found in:** Proventure ([`TLFB`](proventure.md#tlfb-timeline-followback))
 
 ---
 
@@ -290,6 +290,6 @@ Click an instrument to jump to its section. Instruments are grouped by domain.
 ### `data_dictionary.csv`
 - **What it is:** NeuroVenture is a sub-study of the CoVenture cohort that looks into how adolescent substance use impacts brain development using neuroimaging (MRI). The data dictionary for the **NeuroVenture** study — cognitive/behavioural computer tasks (eprime), a clinical diagnostic interview (DAWBA), a childhood trauma questionnaire (CTQ), a substance-use calendar (Timeline Follow-Back), and session/demographic admin data.
 - **Variable naming:** Plain variable names, **no `_Y#` suffix**. Timepoints are recorded separately in the `timepoints` column, using numeric session labels (`1`, `2`, `3` = testing session 1/2/3), not `Y1`–`Y5`.
-- **Includes:** BART, Stop-Signal Task, n-back task, SURPS (subscale scores only — see [SURPS entry](#surps_--substance-use-risk-profile-scale) above), BEHAVIOURAL_SCORES (CMS, WISC, Stroop, SOPT), DAWBA, CTQ_X, TIME_LINE_FOLLOW_BACK, DEMOGRAPHIC_INFORMATIONS, TESTING_SESSIONS, CODES.
+- **Includes:** BART, Stop-Signal Task, n-back task, SURPS (subscale scores only — see [SURPS entry](#surps_-substance-use-risk-profile-scale) above), BEHAVIOURAL_SCORES (CMS, WISC, Stroop, SOPT), DAWBA, CTQ_X, TIME_LINE_FOLLOW_BACK, DEMOGRAPHIC_INFORMATIONS, TESTING_SESSIONS, CODES.
 
 ---

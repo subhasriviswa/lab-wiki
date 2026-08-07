@@ -1,21 +1,21 @@
 # CUSP Data Dictionary — The Canadian Underage Substance Use Prevention Trial 
 [CUSP](https://www.conrodventurelab.com/project-pages/cusp-trial) is a cluster randomized controlled trial (in Quebec, British Columbia, Nova Scotia and Ontario) to test the effectiveness of PreVenture when disseminated through a Train-the-Trainer implementation model and to address questions about program sustainability and scale-up.
 
-**Variable naming:** Raw items use a `LETTER#_SUFFIX` scheme tied to questionnaire section ordered in ahlphabetical order (`J12_01` = section J, item 12, sub-item 01). Derived variables use short lowercase names (`sdq_tot`, `audit_cat`) with no year suffix 
+**Variable naming:** Raw items use a `LETTER#_SUFFIX` scheme tied to questionnaire section ordered in alphabetical order (`J12_01` = section J, item 12, sub-item 01). Derived variables use short lowercase names (`sdq_tot`, `audit_cat`) with no year suffix 
 
 ## Instrument index
 
-**Demographics & sessions:** [Background (B1–B23)](#background-b1b23--demographics-ses--school-connection) · [Trial design & intervention](#trial-design--intervention-preventure-workshop-variables)
+**Demographics & sessions:** [Background (B1–B23)](#background-b1b23-demographics-ses-school-connection) · [Trial design & intervention](#trial-design-intervention-preventure-workshop-variables)
 
-**Mental health & psychopathology:** [BSI](#bsi--brief-symptom-inventory-subset-cusp) · [BRIEF-COPE](#brief-cope--brief-cope-inventory-cusp) · [APSS](#apss--anxiety-sensitivity--psychotic-like-experiences-screen) · [ATQ](#atq--automatic-thoughts-questionnaire-cusp) · [SDQ](#sdq--strengths-and-difficulties-questionnaire-cusp)
+**Mental health & psychopathology:** [BSI](#bsi-brief-symptom-inventory-subset-cusp) · [BRIEF-COPE](#brief-cope-brief-cope-inventory-cusp) · [APSS](#apss-anxiety-sensitivity-psychotic-like-experiences-screen) · [ATQ](#atq-automatic-thoughts-questionnaire-cusp) · [SDQ](#sdq-strengths-and-difficulties-questionnaire-cusp)
 
-**Psychosocial:** [Rosenberg Self-Esteem Scale (mislabeled "SES")](#rosenberg-self-esteem-scale-mislabeled-ses-in-raw-item-bank) · [CHU-9D](#chu-9d--child-health-utility-9d)
+**Psychosocial:** [Rosenberg Self-Esteem Scale (mislabeled "SES")](#rosenberg-self-esteem-scale-mislabeled-ses-in-raw-item-bank) · [CHU-9D](#chu-9d-child-health-utility-9d)
 
-**Personality:** [SURPS](#surps--substance-use-risk-profile-scale-cusp)
+**Personality:** [SURPS](#surps-substance-use-risk-profile-scale-cusp)
 
-**Substance use:** [CRAFFT](#crafft--car-relax-alone-forget-friends-trouble-screen) · [DEP-ADO](#dep-ado--dep-ado-substance-use-screening-cusp) · [SUMM](#summ--substance-use-motives-measure) · [MAAQ](#maaq--marijuana-alcohol-abstinence-questionnaire) · [AUDIT](#audit--alcohol-use-disorders-identification-test) · [Tobacco/E-cigarette/Cannabis frequency items](#tobacco-e-cigarette-cannabis-frequency--quitting-items) · [CAST](#cast--cannabis-abuse-screening-test) · [CUDIT](#cudit--cannabis-use-disorders-identification-test) · [NPDMU](#npdmu--non-prescription-drug-misuse)
+**Substance use:** [CRAFFT](#crafft-car-relax-alone-forget-friends-trouble-screen) · [DEP-ADO](#dep-ado-dep-ado-substance-use-screening-cusp) · [SUMM](#summ-substance-use-motives-measure) · [MAAQ](#maaq-marijuanaalcohol-abstinence-questionnaire) · [AUDIT](#audit-alcohol-use-disorders-identification-test) · [Tobacco/E-cigarette/Cannabis frequency items](#tobacco-e-cigarette-cannabis-frequency-quitting-items) · [CAST](#cast-cannabis-abuse-screening-test) · [CUDIT](#cudit-cannabis-use-disorders-identification-test) · [NPDMU](#npdmu-non-prescription-drug-misuse)
 
-**Service use & adversity:** [Mental/physical health self-rating, help-seeking, trauma, violence](#mental-physical-health-self-rating-help-seeking-trauma-violence)
+**Service use & adversity:** [Mental/physical health self-rating, help-seeking, trauma, violence](#mentalphysical-health-self-rating-help-seeking-trauma-violence)
 
 **COVID-19:** [NIH COVID-19 Questionnaire](#nih-covid-19-questionnaire)
 
@@ -48,7 +48,7 @@
 - **Derived variables:** `surps_ax` (anxiety), `surps_im` (impulsivity), `surps_nt` (negative thinking), `surps_ss` (sensation seeking); also feeds `surps_cat`, `high_risk`, `highrisk` under Trial design above
 - **Data source:** raw → 'Derived_Variable_Algorithm_and_Skip_Rules.xlsx', CUSP tab, Section Q1. Derived → 'all_baselines_data_dictionary.xlsx', Data dictionary tab, domain "Personality (SURPS)".
 - **Example variable:** `A1_c` = "I would like to skydive (parachute out of a plane)."
-- **Also found in:** Coventure/NeuroVenture ([`SURPS_`](behavioural_data_summary.md#surps_--substance-use-risk-profile-scale)) and Proventure ([`SURPS`](proventure_data_dictionary.md#surps--substance-use-risk-profile-scale-proventure)). Item count (23) matches Proventure's shortened version rather than the 48-item Coventure/NeuroVenture version — confirm before pooling across studies.
+- **Also found in:** Coventure/NeuroVenture ([`SURPS_`](coventure-neuroventure.md#surps_-substance-use-risk-profile-scale)) and Proventure ([`SURPS`](proventure.md#surps-substance-use-risk-profile-scale-proventure)). Item count (23) matches Proventure's shortened version rather than the 48-item Coventure/NeuroVenture version — confirm before pooling across studies.
 
 ---
 
@@ -58,7 +58,7 @@
 - **Description:** Past-12-month psychological symptom checklist covering depression and anxiety.
 - **Data source:** raw → 'Derived_Variable_Algorithm_and_Skip_Rules.xlsx', CUSP tab, Section Q4. Derived → 'all_baselines_data_dictionary.xlsx', Data dictionary tab, domain "Mental health & wellbeing" (BRIEF-COPE is its own domain, "Coping (Brief COPE)").
 - **Example variable:** `J8_01` = "Thoughts of ending your life."
-- **Also found in:** Coventure/NeuroVenture ([`BSI_`](behavioural_data_summary.md#bsi_--brief-symptom-inventory-subset)).
+- **Also found in:** Coventure/NeuroVenture ([`BSI_`](coventure-neuroventure.md#bsi_-brief-symptom-inventory-subset)).
 
 ### `BRIEF-COPE` — Brief COPE Inventory (CUSP)
 - **Description:** Coping strategies in response to problems/stress, 14 subscales.
@@ -66,7 +66,7 @@
 - **Derived variables:** `cope_acceptance`, `cope_active`, `cope_denial`, `cope_disengage`, `cope_emot_support`, `cope_humor`, `cope_instr_support`, `cope_planning`, `cope_reframe`, `cope_religion`, `cope_self_blame`, `cope_self_dist`, `cope_substance`, `cope_venting` (all 0–6)
 - **Data source:** raw → 'Derived_Variable_Algorithm_and_Skip_Rules.xlsx', CUSP tab, Section Q4. Derived → 'all_baselines_data_dictionary.xlsx', Data dictionary tab, domain "Mental health & wellbeing" (BRIEF-COPE is its own domain, "Coping (Brief COPE)").
 - **Example variable:** `J9_03` = "I've been saying to myself 'this isn't real'."
-- **Also found in:** Coventure/NeuroVenture ([`COPE_`](behavioural_data_summary.md#cope_--brief-cope-inventory)).
+- **Also found in:** Coventure/NeuroVenture ([`COPE_`](coventure-neuroventure.md#cope_-brief-cope-inventory)).
 
 ### `APSS` — Anxiety Sensitivity & Psychotic-like Experiences Screen
 - **Description:** Screens for psychotic-like experiences (thought reading, special messages, being followed/spied on).
@@ -74,7 +74,7 @@
 - **Derived variables:** `apss` (total, 0–7, 0.5-point steps; higher = more)
 - **Data source:** raw → 'Derived_Variable_Algorithm_and_Skip_Rules.xlsx', CUSP tab, Section Q4. Derived → 'all_baselines_data_dictionary.xlsx', Data dictionary tab, domain "Mental health & wellbeing" (BRIEF-COPE is its own domain, "Coping (Brief COPE)").
 - **Example variable:** `J10_03` = "Have you ever thought that you were being followed or spied upon?"
-- **Also found in:** Coventure/NeuroVenture ([`PSYCHOTIC_`](behavioural_data_summary.md#psychotic_--psychotic-like-experiences-screen)) and Proventure ([`PSYCHOTIC` / `APSS-PLE`](proventure_data_dictionary.md#psychotic--apss-ple--thoughts-and-feelings-questionnaire)). Same 9-item instrument across all three studies (this is the source of the "APSS-PLE" name used in Proventure).
+- **Also found in:** Coventure/NeuroVenture ([`PSYCHOTIC_`](coventure-neuroventure.md#psychotic_-psychotic-like-experiences-screen)) and Proventure ([`PSYCHOTIC` / `APSS-PLE`](proventure.md#psychotic-apss-ple-thoughts-and-feelings-questionnaire)). Same 9-item instrument across all three studies (this is the source of the "APSS-PLE" name used in Proventure).
 
 ### `ATQ` — Automatic Thoughts Questionnaire (CUSP)
 - **Description:** Frequency of negative automatic thoughts.
@@ -82,7 +82,7 @@
 - **Derived variables:** `atq` (total, 0–80; higher = more)
 - **Data source:** raw → 'Derived_Variable_Algorithm_and_Skip_Rules.xlsx', CUSP tab, Section Q4. Derived → 'all_baselines_data_dictionary.xlsx', Data dictionary tab, domain "Mental health & wellbeing" (BRIEF-COPE is its own domain, "Coping (Brief COPE)").
 - **Example variable:** `J11_02` = "I am worthless"
-- **Also found in:** Coventure/NeuroVenture ([`AUTO_`](behavioural_data_summary.md#auto_--automatic-thoughts-questionnaire)).
+- **Also found in:** Coventure/NeuroVenture ([`AUTO_`](coventure-neuroventure.md#auto_-automatic-thoughts-questionnaire)).
 
 ### `SDQ` — Strengths and Difficulties Questionnaire (CUSP)
 - **Description:** Standard child/adolescent behavioural screening tool. 5 subscales: Emotional, Conduct, Hyperactivity, Peer, Prosocial, plus Total Difficulties.
@@ -90,7 +90,7 @@
 - **Derived variables:** `sdq_conduct` (items 5,7R,12,18,22; 0–10), `sdq_emotional` (items 3,8,13,16,24; 0–10), `sdq_hyperactive` (items 2,10,15,21R,25R; 0–10), `sdq_peer` (items 6,11R,14R,19,23; 0–10), `sdq_prosocial` (items 1,4,9,17,20; 0–10), `sdq_tot` (0–40)
 - **Data source:** raw → 'Derived_Variable_Algorithm_and_Skip_Rules.xlsx', CUSP tab, Section Q4. Derived → 'all_baselines_data_dictionary.xlsx', Data dictionary tab, domain "Mental health & wellbeing" (BRIEF-COPE is its own domain, "Coping (Brief COPE)").
 - **Example variable:** `J12_01` = "I try to be nice to other people. I care about their feelings"
-- **Also found in:** Coventure/NeuroVenture ([`SDQ_`](behavioural_data_summary.md#sdq_--strengths-and-difficulties-questionnaire)).
+- **Also found in:** Coventure/NeuroVenture ([`SDQ_`](coventure-neuroventure.md#sdq_-strengths-and-difficulties-questionnaire)).
 
 ---
 
@@ -102,7 +102,7 @@
 - **Derived variables:** `self_esteem` (10–40; higher = more self-esteem)
 - **Data source:** raw → 'Derived_Variable_Algorithm_and_Skip_Rules.xlsx', CUSP tab, Section Q4. Derived → 'all_baselines_data_dictionary.xlsx', Data dictionary tab, domain "Mental health & wellbeing" (BRIEF-COPE is its own domain, "Coping (Brief COPE)").
 - **Example variable:** `J13_03` = "I feel that I have a number of good qualities."
-- **Also found in:** Coventure/NeuroVenture ([`SELF_ESTEEM_`](behavioural_data_summary.md#self_esteem_--rosenberg-self-esteem-scale)).
+- **Also found in:** Coventure/NeuroVenture ([`SELF_ESTEEM_`](coventure-neuroventure.md#self_esteem_-rosenberg-self-esteem-scale)).
 
 ### `CHU-9D` — Child Health Utility 9D
 - **Description:** 9-domain child health-related quality-of-life measure (worry, sad, pain, tired, annoyed, schoolwork, sleep, daily routine, ability to join activities), rated "today."
@@ -128,7 +128,7 @@
 - **Derived variables:** `illicit_12mo` (any illicit drug use, past 12mo), `cannabis_ever`, `cannabis_12mo`, `tobacco_ever`, `tobacco_12mo`, `ecig_ever`, `ecig_12mo`
 - **Data source:** raw → 'Derived_Variable_Algorithm_and_Skip_Rules.xlsx', CUSP tab, Section Q3. Derived → 'all_baselines_data_dictionary.xlsx', Data dictionary tab, domain "Substance use".
 - **Example variable:** `C2_D` = "CANNABIS (also known as weed, marijuana, pot, splif, hash...)"
-- **Also found in:** Coventure/NeuroVenture ([`DEPAPO_`](behavioural_data_summary.md#depapo_--dep-ado-substance-use-screening)) and Proventure ([`DEPADO_`](proventure_data_dictionary.md#dep-ado--dep-ado-substance-use-screening-proventure)). Same underlying DEP-ADO tool across all three studies; item sets and exact substance list differ — confirm alignment before pooling.
+- **Also found in:** Coventure/NeuroVenture ([`DEPAPO_`](coventure-neuroventure.md#depapo_-dep-ado-substance-use-screening)) and Proventure ([`DEPADO_`](proventure.md#dep-ado-dep-ado-substance-use-screening-proventure)). Same underlying DEP-ADO tool across all three studies; item sets and exact substance list differ — confirm alignment before pooling.
 
 ### `SUMM` — Substance Use Motives Measure
 - **Description:** Why participants use the substance(s) they endorsed in DEP-ADO — repeated per substance the participant reported using (alcohol block = `C5_A`, cannabis block = `C5_B`, etc.).
@@ -136,7 +136,7 @@
 - **Derived variables:** `motives_alcohol` (SUMM C5_A, 0–28, missing if non-drinker past year), `motives_cannabis` (SUMM C5_B, 0–28, missing if non-user past year)
 - **Data source:** raw → 'Derived_Variable_Algorithm_and_Skip_Rules.xlsx', CUSP tab, Section Q3. Derived → 'all_baselines_data_dictionary.xlsx', Data dictionary tab, domain "Substance use".
 - **Example variable:** `C5_A_04` = "Because the substance helps me cope when I'm feeling sad, down, or depressed"
-- **Similar to:** Coventure/NeuroVenture's [`DMQ_`](behavioural_data_summary.md#dmq_--drinking-motives-questionnaire) and [`CMQ_`](behavioural_data_summary.md#cmq_--cannabis-motives-questionnaire) — conceptually similar (substance-use motives) but a different, single combined measure rather than separate drinking/cannabis motives questionnaires. Not directly poolable.
+- **Similar to:** Coventure/NeuroVenture's [`DMQ_`](coventure-neuroventure.md#dmq_-drinking-motives-questionnaire) and [`CMQ_`](coventure-neuroventure.md#cmq_-cannabis-motives-questionnaire) — conceptually similar (substance-use motives) but a different, single combined measure rather than separate drinking/cannabis motives questionnaires. Not directly poolable.
 
 ### `MAAQ` — Marijuana/Alcohol Abstinence Questionnaire
 - **Description:** Reasons for *not* using a substance or for limiting use (interference with school, no desire, religious/spiritual beliefs, impaired self-control, medical/genetic condition, family disapproval, prior substance use problem, financial priorities).
@@ -226,8 +226,7 @@
 | `Type` | Stata variable type (numeric, string, date) |
 | `Stata format` | Stata display format code |
 | `Value-label set` | Name of the linked value-label set, if categorical (see `Value labels` tab) |
-| `N valid` / `N m
-issing` / `% missing` | Completeness in the current dataset |
+| `N valid` / `N missing` / `% missing` | Completeness in the current dataset |
 | `Range` | Observed value range or distinct-value count |
 | `Distribution (numeric)` | Mean/SD/median, for numeric variables |
 | `Categories (n)` | Category breakdown with counts, for categorical variables |

@@ -51,6 +51,10 @@ nav:
   - Home: index.md
   - Datasets:
     - Overview: datasets/index.md
+    - Data Dictionaries:
+      - CoVenture & NeuroVenture: datasets/data-dictionaries/coventure-neuroventure.md
+      - ProVenture: datasets/data-dictionaries/proventure.md
+      - CUSP: datasets/data-dictionaries/cusp.md
     - Neuroimaging Cohorts:
       - Neuroventure: datasets/neuroimaging/neuroventure.md
       - Proventure: datasets/neuroimaging/proventure.md
