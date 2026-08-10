@@ -16,7 +16,9 @@ PREFIX_QQ_Y#
 |---|---|---|
 | `PREFIX` | Instrument abbreviation (see table of instruments below) | `SDQ`, `SURPS`, `DEM` |
 | `QQ` | Item/question number within the instrument, as it appears on the original questionnaire | `01`, `02`, ... |
-| `Y#` | Timepoint / study year the data was collected (`Y1`–`Y5`) | `Y1` = Year 1, `Y5` = Year 5 |
+| `Y#` | study year the data was collected in CoVenture study (`Y1`–`Y5`) | `Y1` = Year 1, `Y5` = Year 5 |
+| `Timepoint` | Timepoint the data was collected for NeuroVenture (3 timepoints at 3 different times, not the same as Y# and not necessarily evenly spaced timepoints) | `1`,`2`,`3` |
+
 
 ### How to match a column to its dictionary entry
 
