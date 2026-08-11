@@ -2,7 +2,7 @@
 
 This page acts as a legend for Proventure. Its data dictionary (`Proventure_Data_Dictionnary_2026-04-09.xlsx`) is structured with one sheet per questionnaire block, there are both English and French sheets**. This legend also incorporates information from the `PROVENTURE - COMPLETE TEST BATTERY` document.
 
-###Study Design 
+### Study Design 
 ProVenture will shine a light on the mechanisms that mediate the relationship between cannabis and its purported adverse effects. Our volunteers are recruited from the CoVenture cohort, classified into three levels of mental health vulnerability and assessed at three time points, eighteen (18) months apart. At every time point, they undergo a brain scan (Magnetic Resonance Imaging, MRI), a battery of cognitive tests, a brief interview as well as a series of psychometric and drug-related questionnaires. Participants are also asked to provide a saliva sample and a drop of blood in order to sequence their DNA and measure a number of biomarkers.                            
 
 As stated on the [Conrod Venture Lab](https://www.conrodventurelab.com/projets/proventure) website
