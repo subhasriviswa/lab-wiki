@@ -43,13 +43,13 @@ Information](#demographic_informations--participant-demographics--history) · [T
 Sessions](#testing_sessions--session-level-metadata) ·
 [Codes](#codes--administrative-id-codes)
 
-**Cognitive tasks:** [CMS](#cms--memory-task) · [SWM](#swm--spatial-working-memory) ·
-[CFT](#cft--culture-fair-non-verbal-iq-test) ·
-[PALP](#palp--probabilistic-associative-learning-paradigm) ·
-[BART](#bart-balloon-analogue-risk-task--risk-taking-task) · [Stop-Signal
-Task](#stop-signal-task--response-inhibition-task) · [n-back
-task](#n-back-task--working-memory-task) · [Behavioural
-Scores](#behavioural_scores--memory-iq-and-executive-function-battery)
+**Cognitive tasks:** [CMS](#cms-memory-task) · [SWM](#swm-spatial-working-memory) ·
+[CFT](#cft-culture-fair-non-verbal-iq-test) ·
+[PALP](#palp-probabilistic-associative-learning-paradigm) ·
+[BART](#bart-balloon-analogue-risk-task-risk-taking-task) · [Stop-Signal
+Task](#stop-signal-task-response-inhibition-task) · [n-back
+task](#n-back-task-working-memory-task) · [Behavioural
+Scores](#behavioural_scores-memory-iq-and-executive-function-battery)
 
 **Clinical assessments:** [DAWBA](#dawba--development-and-well-being-assessment) ·
 [CTQ_X](#ctq_x--childhood-trauma-questionnaire)
