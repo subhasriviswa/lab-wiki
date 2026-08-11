@@ -260,6 +260,7 @@ Difficulties score. Questions 1-25.
 - **Example variable:** SDQ_01 = question 1 "Give your answers on the basis of how things
 have been for you OVER THE LAST 12 MONTHS: I try to be nice to other people. I care about
 their feelings"
+- **Also found in:** [CUSP SDQ](cusp.md#sdq--strengths-and-difficulties-questionnaire-cusp)
 
 ### `BSI_` — Brief Symptom Inventory (subset)
 
@@ -269,6 +270,7 @@ Depression, Anxiety, Interpersonal Sensitivity, plus a suicidal-ideation item. Q
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "BSI_"`
 - **Example variable:** BSI_01 = question 1 'IN THE PAST 12 MONTHS, how much have you
 experienced the following feelings ?: Thoughts of ending your life.'
+- **Also found in:**  [CUSP BSI](cusp.md#bsi--brief-symptom-inventory-subset-cusp)
 
 ### `PSYCHOTIC_` — Psychotic-like experiences screen
 
@@ -279,7 +281,8 @@ messages, being followed/spied on). Questions 1-9.
 - **Example variable:** PSYCHOTIC_01
 - **Also found in:** Proventure ([`PSYCHOTIC` /
 `APSS-PLE`](proventure.md#psychotic--apss-ple--thoughts-and-feelings-questionnaire) —
-"Thoughts and Feelings questionnaire").
+"Thoughts and Feelings questionnaire") and [CUSP APSS](cusp.md#apss--anxiety-sensitivity-psychotic-like-experiences)
+
 - **Reference:** Laurens, K. R., Hodgins, S., Maughan, B., Murray, R. M., Rutter, M. L., &
 Taylor, E. A. (2007). Community screening for psychotic-like experiences and other putative
 antecedents of schizophrenia in children aged 9–12 years. *Schizophrenia Research*, 90(1),
@@ -292,6 +295,7 @@ head"). Subscales: Personal failure, Hostility, plus a total score. Questions 1-
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "AUTO_"`
 - **Example variable:** AUTO_01
+- **Also found in:** [CUSP ATQ](cusp.md#atq--automatic-thoughts-questionnaire-cusp)
 
 ### `COPE_` — Brief COPE Inventory
 
@@ -302,6 +306,7 @@ Religion, Self-blame. Questions 1-28.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "COPE_"`
 - **Example variable:** COPE_01
+- **Also found in:**  [CUSP BRIEF-COPE](cusp.md#brief-cope--brief-cope-inventory-cusp)
 
 ---
 
@@ -314,6 +319,7 @@ satisfied with myself"). Questions 1-10.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "SELF_ESTEEM_"`
 - **Example variable:** SELF_ESTEEM_01
+- **Also found in:** [CUSP Rosenberg Self-Esteem Scale](cusp.md#rosenberg-self-esteem-scale)
 
 ### `BULLY_` — Bullying involvement questionnaire
 
@@ -356,7 +362,7 @@ factor scores (alcohol & cannabis, other drugs, consequences) plus a total score
 - **Example variable:** `DEPAPO_ALC` = alcohol use item
 - **Also found in:** Proventure
 ([`DEPADO_`](proventure.md#dep-ado--dep-ado-substance-use-screening-proventure)) Note:
-typo in this dictionary, should be DEPADO
+typo in this dictionary, should be DEPADO and [CUSP DEP-ADO](cusp.md#dep-ado--dep-ado-substance-use-screening-cusp)
 - **Reference:** Germain, M. *Grille de dépistage de consommation problématique d'alcool et
 de drogues chez les adolescents et les adolescentes – DEP-ADO.* Recherche et intervention
 sur les substances psychoactives. Québec, 2005.
@@ -400,7 +406,7 @@ one per year)
 Sensation Seeking subscale score; `ZSURPS_NT_School_Y#` = NT subscale, z-scored vs.
 school mean; `ZSURPS_NT_Total_Y#` = z-scored vs. full sample
 - **Also found in:** Proventure
-([`SURPS`](proventure.md#surps--substance-use-risk-profile-scale-proventure))
+([`SURPS`](proventure.md#surps--substance-use-risk-profile-scale-proventure)) and [CUSP SURPS](cusp.md#surps--substance-use-risk-profile-scale-cusp)
 - **Reference:** Woicik, P. A., Stewart, S. H., Conrod, P. J., et al. (2009). The Substance Use
 Risk Profile Scale: a scale measuring traits linked to reinforcement-specific substance use
 profiles. *Addictive Behaviors*, 34, 1042–1055.
@@ -527,3 +533,6 @@ As stated on the [Conrod Venture Lab](https://www.conrodventurelab.com/projets/n
 website
 
 ---
+
+
+
