@@ -5,14 +5,14 @@
 | Field | Details |
 |-------|---------|
 | **Cohort Name** | Proventure |
-| **Description** | *TBD* |
+| **Description** | Brain imaging project designed to study changes in neurodevelopment due to cannabis consumption, examining mechanisms mediating the relationship between cannabis and adverse effects (cognitive deficits, structural brain changes, and heightened risk of anxiety, depression, and psychosis). Volunteers were recruited from the CoVenture cohort and classified into three levels of mental health vulnerability. |
 | **N Subjects** | *TBD* |
-| **Timepoints** | *TBD* |
-| **Modalities** | *TBD* |
+| **Timepoints** | 3 sessions (18 months apart) |
+| **Modalities** | Magnetic Resonance Imaging (MRI), cognitive tests, brief interviews, psychometric and drug-related questionnaires, saliva and blood samples for DNA sequencing and biomarkers |
 | **Scanner** | *TBD* |
 | **BIDS Formatted** | *TBD* |
 | **Data Location** | *TBD* |
-| **PI / Contact** | *TBD* |
+| **PI / Contact** | Dr. Patricia Conrod |
 
 ## Imaging Protocol
 
