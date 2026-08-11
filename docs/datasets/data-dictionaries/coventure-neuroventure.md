@@ -38,10 +38,10 @@ see the bottom of this page) → `variable_name` column.
 
 Click an instrument to jump to its section. Instruments are grouped by domain.
 
-**Demographics & sessions:** [DEM](#dem_--demographics) · [Demographic
-Information](#demographic_informations--participant-demographics--history) · [Testing
-Sessions](#testing_sessions--session-level-metadata) ·
-[Codes](#codes--administrative-id-codes)
+**Demographics & sessions:** [DEM](#dem-demographics) · [Demographic
+Information](#demographic-informations-participant-demographics-history) · [Testing
+Sessions](#testing-sessions-session-level-metadata) ·
+[Codes](#codes-administrative-id-codes)
 
 **Cognitive tasks:** [CMS](#cms-memory-task) · [SWM](#swm-spatial-working-memory) ·
 [CFT](#cft-culture-fair-non-verbal-iq-test) ·
