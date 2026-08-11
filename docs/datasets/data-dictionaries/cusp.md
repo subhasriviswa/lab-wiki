@@ -1,7 +1,7 @@
 # CUSP Data Dictionary — The Canadian Underage Substance Use Prevention Trial 
 [CUSP](https://www.conrodventurelab.com/project-pages/cusp-trial) is a cluster randomized controlled trial (in Quebec, British Columbia, Nova Scotia and Ontario) to test the effectiveness of PreVenture when disseminated through a Train-the-Trainer implementation model and to address questions about program sustainability and scale-up.
 
-###Study Design
+### Study Design
 This cluster randomized controlled trial involves four sites: a coordinating site in Quebec and three study sites in British Columbia, Ontario and Nova Scotia. The three sites will each recruit nine high schools randomized to three intervention conditions. Students from grade 10 enrolled in these schools in 2019, 2020 and 2021 will be invited to participate, resulting in approximately 4050 students across 27 schools each year, a total of 12,150 students over three years. Eligible students (approximately 45%) at each school will be invited to attend two PreVenture workshops.
 
 To accelerate evidence needed to increase scale-up of this effective program this study will involve both an Effectiveness trial and an Implementation Facilitation trial. Firstly, the study will test the effectiveness of PreVenture when disseminated through a Train-the-Trainer implementation model. Consenting grade 10 students will be assessed on measures of past 12-month substance use onset as well as severity of use. Secondly, to address questions about program sustainability and scale-up, the study will apply state-of-the-art methods in implementation science to examine a novel Implementation Facilitation component to support effective and sustained delivery of PreVenture.
@@ -104,8 +104,8 @@ As stated on the [Conrod Venture Lab](https://www.conrodventurelab.com/projets/c
 
 ## Psychosocial
 
-### Rosenberg Self-Esteem Scale (mislabeled "SES" in raw item bank)
-- **Description:** Standard 10-item global self-esteem measure. note: the `CUSP` tab labels the `Scale` column as **"SES"**, it's important to note it is the **Rosenberg Self-Esteem Scale**, not a socioeconomic-status measure. 
+### Rosenberg Self-Esteem Scale
+- **Description:** Standard 10-item global self-esteem measure. note: the `CUSP` tab labels the `Scale` column as **"SES"**
 - **Raw items:** `J13_01`–`J13_10`
 - **Derived variables:** `self_esteem` (10–40; higher = more self-esteem)
 - **Data source:** raw → 'Derived_Variable_Algorithm_and_Skip_Rules.xlsx', CUSP tab, Section Q4. Derived → 'all_baselines_data_dictionary.xlsx', Data dictionary tab, domain "Mental health & wellbeing" (BRIEF-COPE is its own domain, "Coping (Brief COPE)").
