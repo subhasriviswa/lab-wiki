@@ -1,6 +1,11 @@
 # Proventure Data Dictionary — Clinical, Cognitive & Substance Use Battery
 
-This page acts as a legend for Proventure. Its data dictionary (`Proventure_Data_Dictionnary_2026-04-09.xlsx`) is structured with one sheet per questionnaire block, there are both English and French sheets. This legend also incorporates information from the `PROVENTURE - COMPLETE TEST BATTERY` document.
+This page acts as a legend for Proventure. Its data dictionary (`Proventure_Data_Dictionnary_2026-04-09.xlsx`) is structured with one sheet per questionnaire block, there are both English and French sheets**. This legend also incorporates information from the `PROVENTURE - COMPLETE TEST BATTERY` document.
+
+###Study Design 
+ProVenture will shine a light on the mechanisms that mediate the relationship between cannabis and its purported adverse effects. Our volunteers are recruited from the CoVenture cohort, classified into three levels of mental health vulnerability and assessed at three time points, eighteen (18) months apart. At every time point, they undergo a brain scan (Magnetic Resonance Imaging, MRI), a battery of cognitive tests, a brief interview as well as a series of psychometric and drug-related questionnaires. Participants are also asked to provide a saliva sample and a drop of blood in order to sequence their DNA and measure a number of biomarkers.                            
+
+As stated on the [Conrod Venture Lab](https://www.conrodventurelab.com/projets/proventure) website
 
 ---
 
@@ -9,7 +14,7 @@ This page acts as a legend for Proventure. Its data dictionary (`Proventure_Data
 Most questionnaire variables (variable_name) follow this pattern:
 
 ```
-PREFIX_QQ
+PREFIX_QQ 
 ```
 
 | Part | Meaning | Example |
@@ -21,17 +26,17 @@ PREFIX_QQ
 
 ## Instrument index
 
-**Demographics & sessions:** [DEM](#dem_-demographics-proventure) · [UIC](#uic_-unique-identifier-code)
+**Demographics & sessions:** [DEM](#dem--demographics-proventure) · [UIC](#uic--unique-identifier-code)
 
-**Cognitive tasks:** [WASI-II](#wasi-ii-wechsler-abbreviated-scale-of-intelligence) · [WMS-IV subscale](#wms-iv-subscale-verbal-paired-associates) · [Theory of Mind](#theory-of-mind-combined-stories-test) · [ER-40](#er-40-emotion-recognition-task) · [Dual Task](#dual-task-discontinued) · [WCST](#wcst-wisconsin-card-sorting-test) · [PALP](#palp-stop-or-go-task)
+**Cognitive tasks:** [WASI-II](#wasi-ii--wechsler-abbreviated-scale-of-intelligence) · [WMS-IV subscale](#wms-iv-subscale--verbal-paired-associates) · [Theory of Mind](#thegory-of-mind--combined-stories-test) · [ER-40](#er-40--emotion-recognition-task) · [Dual Task](#dual-task-discontinued) · [WCST](#wcst--wisconsin-card-sorting-test) · [PALP](#palp--stop-or-go-task)
 
-**Clinical assessments:** [CAARMS](#caarms-comprehensive-assessment-of-at-risk-mental-states) · [DIGS](#digs-diagnostic-interview-for-genetic-studies) · [SOFAS](#sofas-social-and-occupational-functioning-scale) · [DAWBA](#dawba-development-and-well-being-assessment-proventure)
+**Clinical assessments:** [CAARMS](#caarms--comprehensive-assessment-of-at-risk-mental-states) · [DIGS](#digs--diagnostic-interview-for-genetic-studies) · [SOFAS](#sofas--social-and-occupational-functioning-scale) · [DAWBA](#dawba--development-and-well-being-assessment-proventure)
 
-**Mental health & psychopathology:** [CAPE-42 (CAPE in excel)](#cape-42-cape-in-excel-community-assessment-of-psychic-experience) · [PSYCHOTIC / APSS-PLE](#psychotic-apss-ple-thoughts-and-feelings-questionnaire) · [PHQA (HQA in proventure excel)](#phqa-patient-health-questionnaire-adolescents)
+**Mental health & psychopathology:** [CAPE-42 (CAPEin proventure excel)](#cape--community-assessment-of-psychic-experience) · [PSYCHOTIC / APSS-PLE](#psychotic--apss-ple--thoughts-and-feelings-questionnaire) · [PHQA (HQA in proventure excel)](#phqa--patient-health-questionnaire-adolescents)
 
-**Psychosocial:** [PSQI](#psqi-pittsburgh-sleep-quality-index)
+**Psychosocial:** [PSQI](#psqi--pittsburgh-sleep-quality-index)
 
-**Substance use:** [DEP-ADO](#dep-ado-dep-ado-substance-use-screening-proventure) · [CEQ](#ceq-cannabis-experience-questionnaire) · [MMM](#mmm-marijuana-motives-measure) · [SMOKE](#smoke-hooked-on-nicotine-questionnaire) · [SURPS](#surps-substance-use-risk-profile-scale-proventure) · [TLFB](#tlfb-timeline-followback)
+**Substance use:** [DEP-ADO](#dep-ado--dep-ado-substance-use-screening-proventure) · [CEQ](#ceq--cannabis-experience-questionnaire) · [MMM](#mmm--marijuana-motives-measure) · [SMOKE](#smoke--hooked-on-nicotine-questionnaire) · [SURPS](#surps--substance-use-risk-profile-scale-proventure) · [TLFB](#tlfb--timeline-followback)
 
 ---
 
@@ -41,12 +46,12 @@ PREFIX_QQ
 - **Description:** Gender, sex-specific items, grade level, school absences, household composition, screen-time habits, and physical measurements (height/weight).
 - **Source:** Proventure_Data Dictionary_2026-04-09 (PROVENTURE_Q1_EN)
 - **Example variable:** `DEM_08` = "How much pocket money do you get from your parent/guardian each week?"
-- **Also found in:** [Coventure/NeuroVenture data dictionary](coventure-neuroventure.md#dem_-demographics) (`DEM_` — see [Demographics & sessions](#demographics-sessions)). Item wording overlaps but is not identical across studies.
+- **Also found in:** [Coventure/NeuroVenture data dictionary](https://github.com/subhasriviswa/lab-wiki/blob/behavioural-data-summary/NeuroVenture%20%26%20CoVenture-DataSummary.md#DEMOGRAPHIC_INFORMATIONS-—-participant-demographics-&-history) (`DEM_` — see [Demographics & sessions](#demographics--sessions)). Item wording overlaps but is not identical across studies.
 
 ### `UIC_` — Unique Identifier Code
 - **Description:** set of questions (mother's first initial, father's first initial, date of birth, last letter of first name, number of older siblings) used to generate an anonymous linking code across surveys/sessions. 
 - **Source:** Proventure_Data Dictionary_2026-04-09 (PROVENTURE_Q1_EN). NOTE: there is a UIC section at the beginning of the sheet as well as another UICR section at the end to confirm the information given and link the questionnaires anonymously.
-- **Also found in:** [Coventure/NeuroVenture data dictionary](coventure-neuroventure.md)— `UIC_1`–`UIC_5` 
+- **Also found in:** [Coventure/NeuroVenture data dictionary](https://github.com/subhasriviswa/lab-wiki/blob/behavioural-data-summary/NeuroVenture%20%26%20CoVenture-DataSummary.md)— `UIC_1`–`UIC_5` 
 
 ---
 
@@ -84,7 +89,7 @@ PREFIX_QQ
 ### `PALP` — Stop or Go Task
 - **Description:** Adapted Go/No-Go Passive Avoidance Learning Paradigm. Participants learn by trial and error to respond ("go") to "good" numbers and withhold responding ("no-go") to "bad" numbers, across Reward-only, Punish-only, and Reward-Punish conditions. Response inhibition indexed by errors on no-go trials.
 - **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_PALP_EN`)
-- **Also found in:** [Coventure/NeuroVenture data dictionary](coventure-neuroventure.md) (`PALP` — [Cognitive tasks](#cognitive-tasks)).
+- **Also found in:** [Coventure/NeuroVenture data dictionary](https://github.com/subhasriviswa/lab-wiki/blob/behavioural-data-summary/NeuroVenture%20%26%20CoVenture-DataSummary.md) (`PALP` — [Cognitive tasks](#cognitive-tasks)).
 - **Reference:** Noorbakhsh, S., Boers, E., Afzali, M., & Conrod, P. (2020). Cognitive Function Impairments Linked to Alcohol and Cannabis Use During Adolescence: A Study of Gender Differences. *Frontiers in Human Neuroscience*, 14, 10.3389/fnhum.2020.00095. *(also citing Newman et al., 1985; Castellanos-Ryan et al., 2011; Whelan et al., 2012)*
 
 ---
@@ -109,7 +114,7 @@ PREFIX_QQ
 ### `DAWBA` — Development and Well-Being Assessment (Proventure)
 - **Description:** Structured diagnostic interview covering a range of child/adolescent psychiatric conditions, including the SDQ, specific/social phobia, panic/agoraphobia, PTSD, OCD, generalized anxiety, depression, bipolar mood, ADHD, eating disorders, tics, and psychosis.
 - **Source:** PROVENTURE - COMPLETE TEST BATTERY
-- **Also found in:** [Coventure/NeuroVenture data dictionary](coventure-neuroventure.md) (`DAWBA` — see [Clinical assessments](#clinical-assessments) in the main summary). Same instrument; variable-level structure documented there.
+- **Also found in:** [Coventure/NeuroVenture data dictionary](https://github.com/subhasriviswa/lab-wiki/blob/behavioural-data-summary/NeuroVenture%20%26%20CoVenture-DataSummary.md) (`DAWBA` — see [Clinical assessments](#clinical-assessments) in the main summary). Same instrument; variable-level structure documented there.
 - **Reference:** Goodman, R., Ford, T., Richards, H., Gatward, R., & Meltzer, H. (2000). The Development and Well-Being Assessment: description and initial validation of an integrated assessment of child and adolescent psychopathology. *Journal of Child Psychology and Psychiatry, and Allied Disciplines*, 41(5). [pubmed.ncbi.nlm.nih.gov/10946756](https://pubmed.ncbi.nlm.nih.gov/10946756/)
 
 ---
@@ -126,7 +131,7 @@ PREFIX_QQ
 - **Description:** Screens for psychotic-like experiences (thought reading, special messages, being followed/spied on, hearing voices, etc.).
 - **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_Q2_EN` sheet)
 - **Example variable:** `PSYCHOTIC_04` = "Have you ever heard voices that other people cannot hear?"
-- **Also found in:** [Coventure/NeuroVenture data dictionary](coventure-neuroventure.md) (`PSYCHOTIC_` — see [Mental health & psychopathology](#mental-health-psychopathology) in the main summary). Item count and content match exactly — same instrument.
+- **Also found in:** [Coventure/NeuroVenture data dictionary](https://github.com/subhasriviswa/lab-wiki/blob/behavioural-data-summary/NeuroVenture%20%26%20CoVenture-DataSummary.md) (`PSYCHOTIC_` — see [Mental health & psychopathology](#mental-health--psychopathology) in the main summary) and [CUSP APSS](cusp.md#apss--anxiety-sensitivity-psychotic-like-experiences)
 - **Reference:** Laurens, K. R., Hodgins, S., Maughan, B., Murray, R. M., Rutter, M. L., & Taylor, E. A. (2007). Community screening for psychotic-like experiences and other putative antecedents of schizophrenia in children aged 9–12 years. *Schizophrenia Research*, 90(1), 130–146.
 
 ### `PHQA` — Patient Health Questionnaire, Adolescents
@@ -152,7 +157,7 @@ PREFIX_QQ
 - **Description:** Québec adolescent alcohol/drug screening tool. Screens lifetime and past-year substance use, frequency, harms/consequences (physical, psychological, relational, school, legal, financial), and dependence symptoms (SDS items), separately for alcohol, cannabis, and other drugs.
 - **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_Q1_EN` sheet, variable prefix `DEPADO_`)
 - **Example variable:** `DEPADO_ALC_HARM01` = "Harm to your physical health caused by your alcohol use"
-- **Also found in:** [Coventure/NeuroVenture data dictionary](coventure-neuroventure.md) (`DEPAPO_` — see [Substance use](#substance-use) in the main summary). Note: prefix differs slightly (`DEPADO_` here vs. `DEPAPO_` in Coventure which is a typo and must be fixed).
+- **Also found in:** [Coventure/NeuroVenture data dictionary](https://github.com/subhasriviswa/lab-wiki/blob/behavioural-data-summary/NeuroVenture%20%26%20CoVenture-DataSummary.md) (`DEPAPO_` — see [Substance use](#substance-use) in the main summary). Note: prefix differs slightly (`DEPADO_` here vs. `DEPAPO_` in Coventure which is a typo and must be fixed) and [CUSP DEP-ADO](cusp.md#dep-ado--dep-ado-substance-use-screening-cusp)
 - **Reference:** Germain, M. *Grille de dépistage de consommation problématique d'alcool et de drogues chez les adolescents et les adolescentes – DEP-ADO.* Recherche et intervention sur les substances psychoactives. Québec, 2005.
 
 ### `CEQ` — Cannabis Experience Questionnaire
@@ -176,13 +181,14 @@ PREFIX_QQ
 - **Description:** Personality risk-factor scale for substance misuse: Negative Thinking, Anxiety Sensitivity, Impulsivity, Sensation Seeking.
 - **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_Q2_EN` sheet)
 - **Example variable:** `SURPS_09` = "I like doing things that frighten me a little."
-- **Also found in:** [Coventure/NeuroVenture data dictionary](coventure-neuroventure.md) (`SURPS_` — see [Substance use](#substance-use) in the main summary).
+- **Also found in:** [Coventure/NeuroVenture data dictionary](https://github.com/subhasriviswa/lab-wiki/blob/behavioural-data-summary/NeuroVenture%20%26%20CoVenture-DataSummary.md) (`SURPS_` — see [Substance use](#substance-use) in the main summary) and [CUSP SURPS](cusp.md#surps--substance-use-risk-profile-scale-cusp)
+
 - **Reference:** Woicik, P. A., Stewart, S. H., Conrod, P. J., et al. (2009). The Substance Use Risk Profile Scale: a scale measuring traits linked to reinforcement-specific substance use profiles. *Addictive Behaviors*, 34, 1042–1055.
 
 ### `TLFB` — Timeline Followback
 - **Description:** Calendar-based recall method for quantifying substance use (drugs, cigarettes, marijuana) over a defined recall period.
 - **Source:** PROVENTURE - COMPLETE TEST BATTERY
-- **Also found in:** [Coventure/NeuroVenture data dictionary](coventure-neuroventure.md) (`TIME_LINE_FOLLOW_BACK` — see [Substance use](#substance-use) in the main summary). Same method; variable-level structure (per-month days/quantity/money-spent for alcohol, tobacco, cannabis, other drugs) documented there.
+- **Also found in:** [Coventure/NeuroVenture data dictionary](https://github.com/subhasriviswa/lab-wiki/blob/behavioural-data-summary/NeuroVenture%20%26%20CoVenture-DataSummary.md) (`TIME_LINE_FOLLOW_BACK` — see [Substance use](#substance-use) in the main summary). Same method; variable-level structure (per-month days/quantity/money-spent for alcohol, tobacco, cannabis, other drugs) documented there.
 - **Reference:** Sobell, L. C., & Sobell, M. (1996). Timeline Followback Method (Drugs, Cigarettes, and Marijuana).
 
 ---
@@ -201,5 +207,7 @@ Unlike the flat `instrument`/`variable_name` table format of the other two dicti
 **Column structure:** Column A = variable name; further columns hold response-option codes in `CODE%%Label` format (e.g. `1%%Yes`, `2%%No`) and, on the first row of a repeated item block, the question text. There is no `instrument`, `timepoints`, or `data_source` column — those must be inferred from variable-name prefix and sheet, as done above.
 
 ---
+
+
 
 
