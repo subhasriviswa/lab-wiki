@@ -20,8 +20,8 @@
 
 | Field | Details |
 |-------|---------|
-| **Ethics Board** | *TBD* |
-| **Protocol Number** | *TBD* |
+| **Ethics Board** | *Sponsor: Dalhousie University* |
+| **Protocol Number** | ClinicalTrials.gov ID NCT06211972 |
 | **Contact to be added to project** | *TBD* |
 
 ## Data Dictionary
