@@ -5,7 +5,7 @@
 | Field | Details |
 |-------|---------|
 | **Cohort Name** | Univenture |
-| **Description** | *TBD* |
+| **Description** | UniVenture is a research project that aims to implement a psychosocial intervention to promote the mental health and well-being of Canadian undergraduate students and reduce substance abuse within Canadian universities.<br>The purpose of this study is to evaluate the effectiveness of the program among young adults and to compare different intervention modalities (face-to-face or online). The interventions offered aim to understand the links between academic success, student mental health and substance use.|
 | **N Subjects** | *TBD* |
 | **Timepoints** | *TBD* |
 | **Data Types** | Behavioral |
