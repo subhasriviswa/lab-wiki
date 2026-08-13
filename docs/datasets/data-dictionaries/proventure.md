@@ -26,17 +26,17 @@ PREFIX_QQ
 
 ## Instrument index
 
-**Demographics & sessions:** [DEM](#dem--demographics-proventure) · [UIC](#uic--unique-identifier-code)
+**Demographics & sessions:** [DEM](proventure.md#dem_-demographics-proventure) · [UIC](proventure.md#uic_-unique-identifier-code)
 
-**Cognitive tasks:** [WASI-II](#wasi-ii--wechsler-abbreviated-scale-of-intelligence) · [WMS-IV subscale](#wms-iv-subscale--verbal-paired-associates) · [Theory of Mind](#thegory-of-mind--combined-stories-test) · [ER-40](#er-40--emotion-recognition-task) · [Dual Task](#dual-task-discontinued) · [WCST](#wcst--wisconsin-card-sorting-test) · [PALP](#palp--stop-or-go-task)
+**Cognitive tasks:** [WASI-II](proventure.md#wasi-ii-wechsler-abbreviated-scale-of-intelligence) · [WMS-IV subscale](proventure.md#wms-iv-subscale-verbal-paired-associates) · [Theory of Mind](#theory-of-mind-combined-stories-test) · [ER-40](proventure.md#er-40-emotion-recognition-task) · [Dual Task](#dual-task-discontinued) · [WCST](proventure.md#wcst-wisconsin-card-sorting-test) · [PALP](proventure.md#palp-stop-or-go-task)
 
-**Clinical assessments:** [CAARMS](#caarms--comprehensive-assessment-of-at-risk-mental-states) · [DIGS](#digs--diagnostic-interview-for-genetic-studies) · [SOFAS](#sofas--social-and-occupational-functioning-scale) · [DAWBA](#dawba--development-and-well-being-assessment-proventure)
+**Clinical assessments:** [CAARMS](proventure.md#caarms-comprehensive-assessment-of-at-risk-mental-states) · [DIGS](proventure.md#digs-diagnostic-interview-for-genetic-studies) · [SOFAS](proventure.md#sofas-social-and-occupational-functioning-scale) · [DAWBA](proventure.md#dawba-development-and-well-being-assessment-proventure)
 
-**Mental health & psychopathology:** [CAPE-42 (CAPEin proventure excel)](#cape--community-assessment-of-psychic-experience) · [PSYCHOTIC / APSS-PLE](#psychotic--apss-ple--thoughts-and-feelings-questionnaire) · [PHQA (HQA in proventure excel)](#phqa--patient-health-questionnaire-adolescents)
+**Mental health & psychopathology:** [CAPE-42 (CAPEin proventure excel)](#cape-42-cape-in-excel-community-assessment-of-psychic-experience) · [PSYCHOTIC / APSS-PLE](proventure.md#psychotic-apss-ple-thoughts-and-feelings-questionnaire) · [PHQA (HQA in proventure excel)](proventure.md#phqa-patient-health-questionnaire-adolescents)
 
-**Psychosocial:** [PSQI](#psqi--pittsburgh-sleep-quality-index)
+**Psychosocial:** [PSQI](proventure.md#psqi-pittsburgh-sleep-quality-index)
 
-**Substance use:** [DEP-ADO](#dep-ado--dep-ado-substance-use-screening-proventure) · [CEQ](#ceq--cannabis-experience-questionnaire) · [MMM](#mmm--marijuana-motives-measure) · [SMOKE](#smoke--hooked-on-nicotine-questionnaire) · [SURPS](#surps--substance-use-risk-profile-scale-proventure) · [TLFB](#tlfb--timeline-followback)
+**Substance use:** [DEP-ADO](proventure.md#dep-ado-dep-ado-substance-use-screening-proventure) · [CEQ](proventure.md#ceq-cannabis-experience-questionnaire) · [MMM](proventure.md#mmm-marijuana-motives-measure) · [SMOKE](proventure.md#smoke-hooked-on-nicotine-questionnaire) · [SURPS](proventure.md#surps-substance-use-risk-profile-scale-proventure) · [TLFB](proventure.md#tlfb-timeline-followback)
 
 ---
 
@@ -46,7 +46,7 @@ PREFIX_QQ
 - **Description:** Gender, sex-specific items, grade level, school absences, household composition, screen-time habits, and physical measurements (height/weight).
 - **Source:** Proventure_Data Dictionary_2026-04-09 (PROVENTURE_Q1_EN)
 - **Example variable:** `DEM_08` = "How much pocket money do you get from your parent/guardian each week?"
-- **Also found in:** [Coventure/NeuroVenture DEMOGRAPHIC_INFORMATIONS](coventure-neuroventure.md#DEMOGRAPHIC_INFORMATIONS--participant-demographics-history) 
+- **Also found in:** [Coventure/NeuroVenture DEMOGRAPHIC_INFORMATIONS](coventure-neuroventure.md#demographic_informations-participant-demographics-history) 
 
 ### `UIC_` — Unique Identifier Code
 - **Description:** set of questions (mother's first initial, father's first initial, date of birth, last letter of first name, number of older siblings) used to generate an anonymous linking code across surveys/sessions. 
@@ -89,7 +89,7 @@ PREFIX_QQ
 ### `PALP` — Stop or Go Task
 - **Description:** Adapted Go/No-Go Passive Avoidance Learning Paradigm. Participants learn by trial and error to respond ("go") to "good" numbers and withhold responding ("no-go") to "bad" numbers, across Reward-only, Punish-only, and Reward-Punish conditions. Response inhibition indexed by errors on no-go trials.
 - **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_PALP_EN`)
-- **Also found in:** [Coventure/NeuroVenture PALP](coventure-neuroventure.md#palp--probabilistic-associative-learning-paradigm) 
+- **Also found in:** [Coventure/NeuroVenture PALP](coventure-neuroventure.md#palp-probabilistic-associative-learning-paradigm) 
 - **Reference:** Noorbakhsh, S., Boers, E., Afzali, M., & Conrod, P. (2020). Cognitive Function Impairments Linked to Alcohol and Cannabis Use During Adolescence: A Study of Gender Differences. *Frontiers in Human Neuroscience*, 14, 10.3389/fnhum.2020.00095. *(also citing Newman et al., 1985; Castellanos-Ryan et al., 2011; Whelan et al., 2012)*
 
 ---
@@ -114,7 +114,7 @@ PREFIX_QQ
 ### `DAWBA` — Development and Well-Being Assessment (Proventure)
 - **Description:** Structured diagnostic interview covering a range of child/adolescent psychiatric conditions, including the SDQ, specific/social phobia, panic/agoraphobia, PTSD, OCD, generalized anxiety, depression, bipolar mood, ADHD, eating disorders, tics, and psychosis.
 - **Source:** PROVENTURE - COMPLETE TEST BATTERY
-- **Also found in:** [Coventure/NeuroVenture DAWBA](coventure-neuroventure.md#dawba--development-and-well-being-assessment) 
+- **Also found in:** [Coventure/NeuroVenture DAWBA](coventure-neuroventure.md#dawba-development-and-well-being-assessment) 
 - **Reference:** Goodman, R., Ford, T., Richards, H., Gatward, R., & Meltzer, H. (2000). The Development and Well-Being Assessment: description and initial validation of an integrated assessment of child and adolescent psychopathology. *Journal of Child Psychology and Psychiatry, and Allied Disciplines*, 41(5). [pubmed.ncbi.nlm.nih.gov/10946756](https://pubmed.ncbi.nlm.nih.gov/10946756/)
 
 ---
@@ -131,7 +131,7 @@ PREFIX_QQ
 - **Description:** Screens for psychotic-like experiences (thought reading, special messages, being followed/spied on, hearing voices, etc.).
 - **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_Q2_EN` sheet)
 - **Example variable:** `PSYCHOTIC_04` = "Have you ever heard voices that other people cannot hear?"
-- **Also found in:** [Coventure/NeuroVenture](coventure-neuroventure.md#psychotic_--psychotic-like-experiences-screen) and [CUSP APSS](cusp.md#apss--anxiety-sensitivity-psychotic-like-experiences)
+- **Also found in:** [Coventure/NeuroVenture](coventure-neuroventure.md#psychotic_-psychotic-like-experiences-screen) and [CUSP APSS](cusp.md#apss-anxiety-sensitivity-psychotic-like-experiences-screen)
 - **Reference:** Laurens, K. R., Hodgins, S., Maughan, B., Murray, R. M., Rutter, M. L., & Taylor, E. A. (2007). Community screening for psychotic-like experiences and other putative antecedents of schizophrenia in children aged 9–12 years. *Schizophrenia Research*, 90(1), 130–146.
 
 ### `PHQA` — Patient Health Questionnaire, Adolescents
@@ -157,7 +157,7 @@ PREFIX_QQ
 - **Description:** Québec adolescent alcohol/drug screening tool. Screens lifetime and past-year substance use, frequency, harms/consequences (physical, psychological, relational, school, legal, financial), and dependence symptoms (SDS items), separately for alcohol, cannabis, and other drugs.
 - **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_Q1_EN` sheet, variable prefix `DEPADO_`)
 - **Example variable:** `DEPADO_ALC_HARM01` = "Harm to your physical health caused by your alcohol use"
-- **Also found in:** [Coventure/NeuroVenture DEPAPO](coventure-neuroventure.md#depapo_--dep-ado-substance-use-screening). Note: prefix differs slightly (`DEPADO_` here vs. `DEPAPO_` in Coventure which is a typo and must be fixed) and [CUSP DEP-ADO](cusp.md#dep-ado--dep-ado-substance-use-screening-cusp)
+- **Also found in:** [Coventure/NeuroVenture DEPAPO](coventure-neuroventure.md#depapo_-dep-ado-substance-use-screening). Note: prefix differs slightly (`DEPADO_` here vs. `DEPAPO_` in Coventure which is a typo and must be fixed) and [CUSP DEP-ADO](cusp.md#dep-ado-dep-ado-substance-use-screening-cusp)
 - **Reference:** Germain, M. *Grille de dépistage de consommation problématique d'alcool et de drogues chez les adolescents et les adolescentes – DEP-ADO.* Recherche et intervention sur les substances psychoactives. Québec, 2005.
 
 ### `CEQ` — Cannabis Experience Questionnaire
@@ -181,14 +181,14 @@ PREFIX_QQ
 - **Description:** Personality risk-factor scale for substance misuse: Negative Thinking, Anxiety Sensitivity, Impulsivity, Sensation Seeking.
 - **Source:** Proventure_Data Dictionary_2026-04-09 (`PROVENTURE_Q2_EN` sheet)
 - **Example variable:** `SURPS_09` = "I like doing things that frighten me a little."
-- **Also found in:** [Coventure/NeuroVenture SURPS](coventure-neuroventure.md#surps_--substance-use-risk-profile-scale) and [CUSP SURPS](cusp.md#surps--substance-use-risk-profile-scale-cusp)
+- **Also found in:** [Coventure/NeuroVenture SURPS](coventure-neuroventure.md#surps_-substance-use-risk-profile-scale) and [CUSP SURPS](cusp.md#surps-substance-use-risk-profile-scale-cusp)
 
 - **Reference:** Woicik, P. A., Stewart, S. H., Conrod, P. J., et al. (2009). The Substance Use Risk Profile Scale: a scale measuring traits linked to reinforcement-specific substance use profiles. *Addictive Behaviors*, 34, 1042–1055.
 
 ### `TLFB` — Timeline Followback
 - **Description:** Calendar-based recall method for quantifying substance use (drugs, cigarettes, marijuana) over a defined recall period.
 - **Source:** PROVENTURE - COMPLETE TEST BATTERY
-- **Also found in:** [Coventure/NeuroVenture TIME_LINE_FOLLOW_BACK](coventure-neuroventure.md#time_line_follow_back--timeline-follow-back-substance-use)
+- **Also found in:** [Coventure/NeuroVenture TIME_LINE_FOLLOW_BACK](coventure-neuroventure.md#time_line_follow_back-timeline-follow-back-substance-use)
 - **Reference:** Sobell, L. C., & Sobell, M. (1996). Timeline Followback Method (Drugs, Cigarettes, and Marijuana).
 
 ---
