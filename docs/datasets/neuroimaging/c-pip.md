@@ -5,10 +5,10 @@
 | Field | Details |
 |-------|---------|
 | **Cohort Name** | C-PIP |
-| **Description** | *TBD* |
+| **Description** | The Canadian Pediatric Imaging Platform (C-PIP) is a national research initiative using MRI to map and understand child brain development (from birth through adolescence). The platform standardizes brain imaging data to study typical growth maps and investigate how conditions like preterm birth or concussions affect development. |
 | **N Subjects** | *TBD* |
-| **Timepoints** | *TBD* |
-| **Modalities** | *TBD* |
+| **Timepoints** | 3 (once per year) |
+| **Modalities** | Behavioural questionnaires, brain imaging (MRI), cognitive assessments, genetic material |
 | **Scanner** | *TBD* |
 | **BIDS Formatted** | *TBD* |
 | **Data Location** | *TBD* |
