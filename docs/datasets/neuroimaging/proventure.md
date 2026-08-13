@@ -34,6 +34,6 @@
 
 <!-- TODO: List publications using this dataset -->
 
-Assaf, R., Ouellet, J., Bourque, J., Stip, E., Leyton, M., Conrod, P., & Potvin, S. (2022). A functional neuroimaging study of self-other processing alterations in atypical developmental trajectories of psychotic-like experiences. Scientific Reports, 12, 16324. https://doi.org/10.1038/s41598-022-20129-3
+Assaf, R., Ouellet, J., Bourque, J., Stip, E., Leyton, M., Conrod, P., & Potvin, S. (2022). A functional neuroimaging study of self-other processing alterations in atypical developmental trajectories of psychotic-like experiences. Scientific Reports, 12, 16324. [https://doi.org/10.1038/s41598-022-20129-3](https://doi.org/10.1038/s41598-022-20129-3)
 
-Assaf, R., Ouellet, J., Bourque, J., Stip, E., Leyton, M., Conrod, P., & Potvin, S. (2022). Neural alterations of emotion processing in atypical trajectories of psychotic-like experiences. Schizophrenia (Heidelberg, Germany), 8(1), 40. https://doi.org/10.1038/s41537-022-00250-y
+Assaf, R., Ouellet, J., Bourque, J., Stip, E., Leyton, M., Conrod, P., & Potvin, S. (2022). Neural alterations of emotion processing in atypical trajectories of psychotic-like experiences. Schizophrenia (Heidelberg, Germany), 8(1), 40. [https://doi.org/10.1038/s41537-022-00250-y](https://doi.org/10.1038/s41537-022-00250-y)
