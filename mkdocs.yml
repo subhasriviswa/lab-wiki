@@ -47,10 +47,22 @@ markdown_extensions:
 plugins:
   - search
 
+# Pages under docs/datasets/questionnaire-battery/ (except index.md) are
+# intentionally left out of `nav`: they are built and searchable but hidden
+# from the sidebar to avoid clutter.
+validation:
+  nav:
+    omitted_files: ignore
+
 nav:
   - Home: index.md
   - Datasets:
     - Overview: datasets/index.md
+    - Data Dictionaries:
+      - CoVenture & NeuroVenture: datasets/data-dictionaries/coventure-neuroventure.md
+      - ProVenture: datasets/data-dictionaries/proventure.md
+      - CUSP: datasets/data-dictionaries/cusp.md
+    - Questionnaire Battery (CoVenture & NeuroVenture): datasets/questionnaire-battery/index.md
     - Neuroimaging Cohorts:
       - Neuroventure: datasets/neuroimaging/neuroventure.md
       - Proventure: datasets/neuroimaging/proventure.md

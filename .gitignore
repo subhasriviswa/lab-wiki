@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .DS_Store
 *.docx
+
+# Source data (questionnaire battery Excel, etc.) — never commit
+data/
