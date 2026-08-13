@@ -32,8 +32,8 @@
 
 <!-- TODO: List publications using this dataset -->
 
-O'Leary-Barrett M, Masse B, Pihl RO, Stewart SH, Seguin JR, Conrod PJ. A cluster-randomized controlled trial evaluating the effects of delaying onset of adolescent substance abuse on cognitive development and addiction following a selective, personality-targeted intervention programme: the Co-Venture trial. Addiction. 2017 Oct;112(10):1871-1881. doi: 10.1111/add.13876. Epub 2017 Jul 17.
+[O'Leary-Barrett M, Masse B, Pihl RO, Stewart SH, Seguin JR, Conrod PJ. A cluster-randomized controlled trial evaluating the effects of delaying onset of adolescent substance abuse on cognitive development and addiction following a selective, personality-targeted intervention programme: the Co-Venture trial. Addiction. 2017 Oct;112(10):1871-1881. doi: 10.1111/add.13876. Epub 2017 Jul 17.](https://pubmed.ncbi.nlm.nih.gov/28544009/)
 
-Bourque J, Afzali MH, O'Leary-Barrett M, Conrod P. Cannabis use and psychotic-like experiences trajectories during early adolescence: the coevolution and potential mediators. J Child Psychol Psychiatry. 2017 Dec;58(12):1360-1369. doi: 10.1111/jcpp.12765. Epub 2017 Jul 5.
+[Bourque J, Afzali MH, O'Leary-Barrett M, Conrod P. Cannabis use and psychotic-like experiences trajectories during early adolescence: the coevolution and potential mediators. J Child Psychol Psychiatry. 2017 Dec;58(12):1360-1369. doi: 10.1111/jcpp.12765. Epub 2017 Jul 5.](https://pubmed.ncbi.nlm.nih.gov/28677235/)
 
-Afzali MH, Sunderland M, Carragher N, Conrod P. The Structure of Psychopathology in Early Adolescence: Study of a Canadian Sample: La structure de la psychopathologie au debut de l'adolescence: etude d'un echantillon canadien. Can J Psychiatry. 2018 Apr;63(4):223-230. doi: 10.1177/0706743717737032. Epub 2017 Oct 23.
+[Afzali MH, Sunderland M, Carragher N, Conrod P. The Structure of Psychopathology in Early Adolescence: Study of a Canadian Sample: La structure de la psychopathologie au debut de l'adolescence: etude d'un echantillon canadien. Can J Psychiatry. 2018 Apr;63(4):223-230. doi: 10.1177/0706743717737032. Epub 2017 Oct 23.](https://pubmed.ncbi.nlm.nih.gov/29061067/)
