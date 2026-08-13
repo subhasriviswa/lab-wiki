@@ -8,7 +8,7 @@ The lab maintains several longitudinal cohorts. Four include neuroimaging data a
 |--------|-----------|------|--------|
 | [Neuroventure](neuroimaging/neuroventure.md) | T1, fMRI (rest, MIDT, STOP), DTI | Yes | Active |
 | [Proventure](neuroimaging/proventure.md) | MRI, cognitive tests, interviews, psychometric/drug-related questionnaires, genetic material | *TBD* | Active |
-| [Coventure10](neuroimaging/coventure10.md) | *TBD* | *TBD* | Active |
+| [Coventure10](neuroimaging/coventure10.md) | *TBD* | *TBD* | Active - Data collection |
 | [C-PIP](neuroimaging/c-pip.md) | MRI, behavioural questionnaires, cognitive assessments, genetic material | *TBD* | *TBD* |
 
 ## Behavioral Cohorts
