@@ -5,6 +5,10 @@ This page acts as a legend for [CoVenture](#coventure-study) and
 how and where to find the data you're searching for, including what each instrument is, how its
 variables are named, where to find it in the data files.
 
+!!! tip "Looking for the question text of an item?"
+    The [Questionnaire Battery](../questionnaire-battery/index.md) section lists every
+    question of every scale in English and French — searchable via the search box.
+
 ---
 
 ### Naming convention legend
@@ -38,9 +42,9 @@ see the bottom of this page) → `variable_name` column.
 
 Click an instrument to jump to its section. Instruments are grouped by domain.
 
-**Demographics & sessions:** [DEM](#dem-demographics) · [Demographic
-Information](#demographic-informations-participant-demographics-history) · [Testing
-Sessions](#testing-sessions-session-level-metadata) ·
+**Demographics & sessions:** [DEM](coventure-neuroventure.md#dem_-demographics) · [Demographic
+Information](coventure-neuroventure.md#demographic_informations-participant-demographics-history) · [Testing
+Sessions](coventure-neuroventure.md#testing_sessions-session-level-metadata) ·
 [Codes](#codes-administrative-id-codes)
 
 **Cognitive tasks:** [CMS](#cms-memory-task) · [SWM](#swm-spatial-working-memory) ·
@@ -51,31 +55,33 @@ Task](#stop-signal-task-response-inhibition-task) · [n-back
 task](#n-back-task-working-memory-task) · [Behavioural
 Scores](#behavioural_scores-memory-iq-and-executive-function-battery)
 
-**Clinical assessments:** [DAWBA](#dawba--development-and-well-being-assessment) ·
-[CTQ_X](#ctq_x--childhood-trauma-questionnaire)
+**Clinical assessments:** [DAWBA](coventure-neuroventure.md#dawba-development-and-well-being-assessment) ·
+[CTQ_X](coventure-neuroventure.md#ctq_x-childhood-trauma-questionnaire)
 
-**Mental health & psychopathology:** [SDQ](#sdq_--strengths-and-difficulties-questionnaire) ·
-[BSI](#bsi_--brief-symptom-inventory-subset) · [Psychotic-like
-experiences](#psychotic_--psychotic-like-experiences-screen) · [Automatic
-Thoughts](#auto_--automatic-thoughts-questionnaire) · [COPE](#cope_--brief-cope-inventory)
+**Mental health & psychopathology:** [SDQ](coventure-neuroventure.md#sdq_-strengths-and-difficulties-questionnaire) ·
+[BSI](coventure-neuroventure.md#bsi_-brief-symptom-inventory-subset) · [Psychotic-like
+experiences](coventure-neuroventure.md#psychotic_-psychotic-like-experiences-screen) · [Automatic
+Thoughts](coventure-neuroventure.md#auto_-automatic-thoughts-questionnaire) · [COPE](coventure-neuroventure.md#cope_-brief-cope-inventory)
 
-**Psychosocial:** [Self-Esteem](#self_esteem_--rosenberg-self-esteem-scale) ·
-[Bullying](#bully_--bullying-involvement-questionnaire) ·
-[Sleep](#sleep_--sleep-habits-questionnaire) · [Eating
-habits](#eat_--eating-habits-questionnaire)
+**Psychosocial:** [Self-Esteem](coventure-neuroventure.md#self_esteem_-rosenberg-self-esteem-scale) ·
+[Bullying](coventure-neuroventure.md#bully_-bullying-involvement-questionnaire) ·
+[Sleep](coventure-neuroventure.md#sleep_-sleep-habits-questionnaire) · [Eating
+habits](coventure-neuroventure.md#eat_-eating-habits-questionnaire)
 
-**Substance use:** [DEP-ADO](#depapo_--dep-ado-substance-use-screening) ·
-[DMQ](#dmq_--drinking-motives-questionnaire) ·
-[CMQ](#cmq_--cannabis-motives-questionnaire) · [Social
-Norms](#soc_norms_--perceived-social-norms) ·
-[SURPS](#surps_--substance-use-risk-profile-scale) · [Timeline
-Follow-Back](#time_line_follow_back--timeline-follow-back-substance-use)
+**Substance use:** [DEP-ADO](coventure-neuroventure.md#depapo_-dep-ado-substance-use-screening) ·
+[DMQ](coventure-neuroventure.md#dmq_-drinking-motives-questionnaire) ·
+[CMQ](coventure-neuroventure.md#cmq_-cannabis-motives-questionnaire) · [Social
+Norms](coventure-neuroventure.md#soc_norms_-perceived-social-norms) ·
+[SURPS](coventure-neuroventure.md#surps_-substance-use-risk-profile-scale) · [Timeline
+Follow-Back](coventure-neuroventure.md#time_line_follow_back-timeline-follow-back-substance-use)
 
 ---
 
 ## Demographics & sessions
 
 ### `DEM_` — Demographics
+
+- **Full item list (EN/FR):** [Questionnaire battery — DEM](../questionnaire-battery/scales/dem.md)
 
 - **Description:** Gender, pubertal status (sex-specific items), grade level, and other
 demographic items. Some items, e.g. `DEM_02f`/`DEM_02m`, are sex-specific and only
@@ -84,7 +90,7 @@ populated for the relevant sex.
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "DEM_"`
 - **Example variable:** DEM_01
 - **Also found in:** Proventure (`DEM_` — see the [Proventure data
-dictionary](proventure.md#dem--demographics-proventure))
+dictionary](proventure.md#dem_-demographics-proventure))
 
 ### `DEMOGRAPHIC_INFORMATIONS` — participant demographics & history
 
@@ -121,6 +127,8 @@ reached baseline (i.e., started the project already in Secondary 2)
 
 ### `CMS` — Memory task
 
+- **Full variable list:** [Questionnaire battery — cognitive tasks](../questionnaire-battery/tasks.md)
+
 - **Description:** Children's Memory Scale (CMS)
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "CMS"`
@@ -130,6 +138,8 @@ Corporation; 1997.
 
 ### `SWM` — Spatial Working Memory
 
+- **Full variable list:** [Questionnaire battery — cognitive tasks](../questionnaire-battery/tasks.md)
+
 - **Description:** Spatial working memory task (variable names such as `SWM_BSE_10_1`,
 `SWM_BSE_4_1` follow CANTAB-style "between search errors" naming)
 - **Timepoints:** Y1–Y5
@@ -137,6 +147,8 @@ Corporation; 1997.
 - **Example variable:** SWM_BSE_10_1, SWM_WSE_10_1, SWM_t4_span
 
 ### `CFT` — Culture Fair (non-verbal IQ) test
+
+- **Full variable list:** [Questionnaire battery — cognitive tasks](../questionnaire-battery/tasks.md)
 
 - **Description:** Non-verbal reasoning/IQ test, Raven's Progressive Matrices-style (per
 dictionary note on `CFT_Raw_Total`).
@@ -146,13 +158,15 @@ dictionary note on `CFT_Raw_Total`).
 
 ### `PALP` — Probabilistic Associative Learning Paradigm
 
+- **Full variable list:** [Questionnaire battery — cognitive tasks](../questionnaire-battery/tasks.md)
+
 - **Description:** Reward/punishment-based associative learning task (variables named
 `PALP_RP_Om`, `PALP_RP_Com`, `PALP_RP_RT_mean` — "Reward/Punish
 omissions/commissions/reaction time").
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "PALP"`
 - **Example variable:** PALP_RP_Com
-- **Also found in:** Proventure ([`PALP`](proventure.md#palp--stop-or-go-task) — "Stop or Go
+- **Also found in:** Proventure ([`PALP`](proventure.md#palp-stop-or-go-task) — "Stop or Go
 Task")
 - **Reference:** Noorbakhsh, S., Boers, E., Afzali, M., & Conrod, P. (2020). Cognitive Function
 Impairments Linked to Alcohol and Cannabis Use During Adolescence: A Study of Gender
@@ -229,7 +243,7 @@ suffix = diagnostic classification; `z2` = second/repeat administration
 - **Example variable:** `depband` = computer-predicted Depression diagnostic band (DSM-IV &
 ICD-10)
 - **Also found in:** Proventure
-([`DAWBA`](proventure.md#dawba--development-and-well-being-assessment-proventure))
+([`DAWBA`](proventure.md#dawba-development-and-well-being-assessment-proventure))
 - **Reference:** Goodman, R., Ford, T., Richards, H., Gatward, R., & Meltzer, H. (2000). The
 Development and Well-Being Assessment: description and initial validation of an integrated
 assessment of child and adolescent psychopathology. *Journal of Child Psychology and
@@ -252,6 +266,8 @@ neglect, plus reverse-scored protective/positive items e.g. "I felt loved").
 
 ### `SDQ_` — Strengths and Difficulties Questionnaire
 
+- **Full item list (EN/FR):** [Questionnaire battery — SDQ](../questionnaire-battery/scales/sdq.md)
+
 - **Description:** Standard child/adolescent behavioural screening tool. 5 subscales: Emotional
 problems, Conduct problems, Hyperactivity, Peer problems, Prosocial behaviour, plus a Total
 Difficulties score. Questions 1-25.
@@ -260,9 +276,11 @@ Difficulties score. Questions 1-25.
 - **Example variable:** SDQ_01 = question 1 "Give your answers on the basis of how things
 have been for you OVER THE LAST 12 MONTHS: I try to be nice to other people. I care about
 their feelings"
-- **Also found in:** [CUSP SDQ](cusp.md#sdq--strengths-and-difficulties-questionnaire-cusp)
+- **Also found in:** [CUSP SDQ](cusp.md#sdq-strengths-and-difficulties-questionnaire-cusp)
 
 ### `BSI_` — Brief Symptom Inventory (subset)
+
+- **Full item list (EN/FR):** [Questionnaire battery — BSI](../questionnaire-battery/scales/bsi.md)
 
 - **Description:** Past-12-month psychological symptom checklist. Subscales present:
 Depression, Anxiety, Interpersonal Sensitivity, plus a suicidal-ideation item. Questions 1-12.
@@ -270,9 +288,11 @@ Depression, Anxiety, Interpersonal Sensitivity, plus a suicidal-ideation item. Q
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "BSI_"`
 - **Example variable:** BSI_01 = question 1 'IN THE PAST 12 MONTHS, how much have you
 experienced the following feelings ?: Thoughts of ending your life.'
-- **Also found in:**  [CUSP BSI](cusp.md#bsi--brief-symptom-inventory-subset-cusp)
+- **Also found in:**  [CUSP BSI](cusp.md#bsi-brief-symptom-inventory-subset-cusp)
 
 ### `PSYCHOTIC_` — Psychotic-like experiences screen
+
+- **Full item list (EN/FR):** [Questionnaire battery — PSYCHOTIC](../questionnaire-battery/scales/psychotic.md)
 
 - **Description:** Screens for psychotic-like experiences (e.g. thought reading, special
 messages, being followed/spied on). Questions 1-9.
@@ -280,8 +300,8 @@ messages, being followed/spied on). Questions 1-9.
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "PSYCHOTIC_"`
 - **Example variable:** PSYCHOTIC_01
 - **Also found in:** Proventure ([`PSYCHOTIC` /
-`APSS-PLE`](proventure.md#psychotic--apss-ple--thoughts-and-feelings-questionnaire) —
-"Thoughts and Feelings questionnaire") and [CUSP APSS](cusp.md#apss--anxiety-sensitivity-psychotic-like-experiences)
+`APSS-PLE`](proventure.md#psychotic-apss-ple-thoughts-and-feelings-questionnaire) —
+"Thoughts and Feelings questionnaire") and [CUSP APSS](cusp.md#apss-anxiety-sensitivity-psychotic-like-experiences-screen)
 
 - **Reference:** Laurens, K. R., Hodgins, S., Maughan, B., Murray, R. M., Rutter, M. L., &
 Taylor, E. A. (2007). Community screening for psychotic-like experiences and other putative
@@ -290,14 +310,18 @@ antecedents of schizophrenia in children aged 9–12 years. *Schizophrenia Resea
 
 ### `AUTO_` — Automatic Thoughts Questionnaire
 
+- **Full item list (EN/FR):** [Questionnaire battery — AUTO](../questionnaire-battery/scales/auto.md)
+
 - **Description:** Frequency of negative automatic thoughts ("thoughts that pop into your
 head"). Subscales: Personal failure, Hostility, plus a total score. Questions 1-20.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "AUTO_"`
 - **Example variable:** AUTO_01
-- **Also found in:** [CUSP ATQ](cusp.md#atq--automatic-thoughts-questionnaire-cusp)
+- **Also found in:** [CUSP ATQ](cusp.md#atq-automatic-thoughts-questionnaire-cusp)
 
 ### `COPE_` — Brief COPE Inventory
+
+- **Full item list (EN/FR):** [Questionnaire battery — COPE](../questionnaire-battery/scales/cope.md)
 
 - **Description:** Coping strategies in response to problems/stress. 14 subscales: Active
 coping, Distraction, Denial, Substance use, Emotional support, Instrumental support,
@@ -306,13 +330,15 @@ Religion, Self-blame. Questions 1-28.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "COPE_"`
 - **Example variable:** COPE_01
-- **Also found in:**  [CUSP BRIEF-COPE](cusp.md#brief-cope--brief-cope-inventory-cusp)
+- **Also found in:**  [CUSP BRIEF-COPE](cusp.md#brief-cope-brief-cope-inventory-cusp)
 
 ---
 
 ## Psychosocial
 
 ### `SELF_ESTEEM_` — Rosenberg Self-Esteem Scale
+
+- **Full item list (EN/FR):** [Questionnaire battery — SELF_ESTEEM](../questionnaire-battery/scales/self_esteem.md)
 
 - **Description:** Standard 10-item global self-esteem measure (e.g. "On the whole, I am
 satisfied with myself"). Questions 1-10.
@@ -323,12 +349,16 @@ satisfied with myself"). Questions 1-10.
 
 ### `BULLY_` — Bullying involvement questionnaire
 
+- **Full item list (EN/FR):** [Questionnaire battery — BULLY](../questionnaire-battery/scales/bully.md)
+
 - **Description:** Bullying victimization and perpetration at school. Questions 1-12.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "BULLY_"`
 - **Example variable:** BULLY_01
 
 ### `Sleep_` — Sleep habits questionnaire
+
+- **Full item list (EN/FR):** [Questionnaire battery — Sleep](../questionnaire-battery/scales/sleep.md)
 
 - **Description:** Self-reported weekday/weekend bed and wake times over the past month
 (one item per day of the week). Questions 1-10.
@@ -338,13 +368,15 @@ satisfied with myself"). Questions 1-10.
 
 ### `EAT_` — Eating habits questionnaire
 
+- **Full item list (EN/FR):** [Questionnaire battery — EAT](../questionnaire-battery/scales/eat.md)
+
 - **Description:** Frequency of eating/drinking specific food/drink categories over the past 7
 days, plus breakfast frequency. Questions 1-9.
 - **Timepoints:** Y1–Y5
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "EAT_"`
 - **Example variable:** EAT_01
 - **Also found in:** Not exactly the same but related to Proventure's
-[`HQA_EW_`](proventure.md#hqa_ew--eating-disorder-screening-phqa-subscale) eating
+[`HQA_EW_`](proventure.md#phqa-patient-health-questionnaire-adolescents) eating
 disorder screen covers a similar domain (weight/shape concerns, compensatory behaviors) but
 is a different instrument questionnaire
 
@@ -354,6 +386,8 @@ is a different instrument questionnaire
 
 ### `DEPAPO_` — DEP-ADO substance use screening
 
+- **Full item list (EN/FR):** [Questionnaire battery — DEPAPO](../questionnaire-battery/scales/depapo.md)
+
 - **Description:** Adolescent alcohol/drug screening tool. Screens lifetime and past-year use of
 alcohol, cannabis, and other drugs, frequency of use, and consequences of use. Produces three
 factor scores (alcohol & cannabis, other drugs, consequences) plus a total score.
@@ -361,13 +395,15 @@ factor scores (alcohol & cannabis, other drugs, consequences) plus a total score
 - **Dictionary:** `coventure_data_dictionary.csv`, `instrument == "DEPAPO_"`
 - **Example variable:** `DEPAPO_ALC` = alcohol use item
 - **Also found in:** Proventure
-([`DEPADO_`](proventure.md#dep-ado--dep-ado-substance-use-screening-proventure)) Note:
-typo in this dictionary, should be DEPADO and [CUSP DEP-ADO](cusp.md#dep-ado--dep-ado-substance-use-screening-cusp)
+([`DEPADO_`](proventure.md#dep-ado-dep-ado-substance-use-screening-proventure)) Note:
+typo in this dictionary, should be DEPADO and [CUSP DEP-ADO](cusp.md#dep-ado-dep-ado-substance-use-screening-cusp)
 - **Reference:** Germain, M. *Grille de dépistage de consommation problématique d'alcool et
 de drogues chez les adolescents et les adolescentes – DEP-ADO.* Recherche et intervention
 sur les substances psychoactives. Québec, 2005.
 
 ### `DMQ_` — Drinking Motives Questionnaire
+
+- **Full item list (EN/FR):** [Questionnaire battery — DMQ](../questionnaire-battery/scales/dmq.md)
 
 - **Description:** Why participants drink alcohol, across 5 motive subscales: Social, Coping with
 anxiety, Coping with depression, Enhancement, Conformity. Questions 1-28.
@@ -376,6 +412,8 @@ anxiety, Coping with depression, Enhancement, Conformity. Questions 1-28.
 - **Example variable:** DMQ_01 = DMQ question 1 "how often you drink as a way to celebrate"
 
 ### `CMQ_` — Cannabis Motives Questionnaire
+
+- **Full item list (EN/FR):** [Questionnaire battery — CMQ](../questionnaire-battery/scales/cmq.md)
 
 - **Description:** Why participants use cannabis, across 5 motive subscales: Social, Coping
 with anxiety, Coping with depression, Enhancement, Conformity. Questions 1-28.
@@ -386,6 +424,8 @@ celebrate"
 
 ### `SOC_NORMS_` — Perceived Social Norms
 
+- **Full item list (EN/FR):** [Questionnaire battery — SOC_NORMS](../questionnaire-battery/scales/soc_norms.md)
+
 - **Description:** Perceived peer acceptability of substance use ("Do you think it's OK for
 someone your age to do the following: try smoking / drinking / getting drunk..."). Questions 1-11.
 - **Timepoints:** Y1–Y5
@@ -393,6 +433,8 @@ someone your age to do the following: try smoking / drinking / getting drunk..."
 - **Example variable:** SOC_NORMS_01 = social norms question 1
 
 ### `SURPS_` — Substance Use Risk Profile Scale
+
+- **Full item list (EN/FR):** [Questionnaire battery — SURPS](../questionnaire-battery/scales/surps.md)
 
 - **Description:** Personality risk-factor scale for substance misuse, 4 subscales: Negative
 Thinking (NT), Anxiety Sensitivity (AS), Impulsivity (IMP), Sensation Seeking (SS). Collected in
@@ -406,7 +448,7 @@ one per year)
 Sensation Seeking subscale score; `ZSURPS_NT_School_Y#` = NT subscale, z-scored vs.
 school mean; `ZSURPS_NT_Total_Y#` = z-scored vs. full sample
 - **Also found in:** Proventure
-([`SURPS`](proventure.md#surps--substance-use-risk-profile-scale-proventure)) and [CUSP SURPS](cusp.md#surps--substance-use-risk-profile-scale-cusp)
+([`SURPS`](proventure.md#surps-substance-use-risk-profile-scale-proventure)) and [CUSP SURPS](cusp.md#surps-substance-use-risk-profile-scale-cusp)
 - **Reference:** Woicik, P. A., Stewart, S. H., Conrod, P. J., et al. (2009). The Substance Use
 Risk Profile Scale: a scale measuring traits linked to reinforcement-specific substance use
 profiles. *Addictive Behaviors*, 34, 1042–1055.
@@ -422,7 +464,7 @@ separately for alcohol, binge drinking, tobacco, cannabis, and up to two additio
 - **Naming note:** `EtOH` = alcohol (ethanol), `$` in variable name = money spent; `Days` =
 number of days used; `MonthN` = calendar month N of the 6-month recall window
 - **Example variable:** `BingeDaysMonth3` = number of binge-drinking days for month 3
-- **Also found in:** Proventure ([`TLFB`](proventure.md#tlfb--timeline-followback))
+- **Also found in:** Proventure ([`TLFB`](proventure.md#tlfb-timeline-followback))
 - **Reference:** Sobell, L. C., & Sobell, M. (1996). Timeline Followback Method (Drugs,
 Cigarettes, and Marijuana).
 
@@ -512,7 +554,7 @@ substance-use calendar (Timeline Follow-Back), and session/demographic admin dat
 separately in the `timepoints` column, using numeric session labels (`1`, `2`, `3` = testing
 session 1/2/3), not `Y1`–`Y5`.
 - **Includes:** BART, Stop-Signal Task, n-back task, SURPS (subscale scores only — see
-[SURPS entry](#surps_--substance-use-risk-profile-scale) above), BEHAVIOURAL_SCORES
+[SURPS entry](coventure-neuroventure.md#surps_-substance-use-risk-profile-scale) above), BEHAVIOURAL_SCORES
 (CMS, WISC, Stroop, SOPT), DAWBA, CTQ_X, TIME_LINE_FOLLOW_BACK,
 DEMOGRAPHIC_INFORMATIONS, TESTING_SESSIONS, CODES.
 
