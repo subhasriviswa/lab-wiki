@@ -5,7 +5,7 @@
 | Field | Details |
 |-------|---------|
 | **Cohort Name** | Opiventure |
-| **Description** | *TBD* |
+| **Description** | OpiVenture is a personality-targeted psychosocial intervention program adapted from the evidence-based PreVenture Program. It is specifically designed to complement opioid agonist therapy (OAT) for individuals dealing with opioid use disorders by helping clients understand and cope with personality-driven triggers and patterns of substance use. |
 | **N Subjects** | *TBD* |
 | **Timepoints** | *TBD* |
 | **Data Types** | Behavioral |
